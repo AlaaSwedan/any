@@ -1,0 +1,120 @@
+<%page expression_filter="h"/>
+<%inherit file="main.html" />
+<%namespace name='static' file='static_content.html'/>
+<%!
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+
+from openedx.core.djangolib.markup import HTML, Text
+%>
+<style type="text/css">
+
+</style>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="home">
+      <section class="promo-box">
+        <div class="promo-box_wrapper">
+          <div class="promo-box_helper"></div>
+          <div class="promo-box_holder">
+            <span class="promo-box_text">${_('The best site for education')}</span>
+            <h1 class="promo-box_heading">${_('WELCOME TO EGYMOOCS !')}</h1>
+            <a class="theme-btn theme-btn__invert" href="/courses">${_('start learning now')}</a>
+          </div>
+        </div>
+      </section>
+  
+      
+    </section>
+</main>
+   <div class="rate-table">
+  
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="mb60 text-center section-title">
+                        <!-- section title start-->
+                           <h1> ${_("CATEGORIES")} </h1>
+                    </div>
+                    <!-- /.section title start-->
+                </div>
+                <div class="text-center product">
+                <div class="Categories-Info">
+                  <a href="/info_technology_subject">
+                        <div class="icon rate-icon image-div">
+                            <img src="${static.url('images/information tecn.jpg')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                          <h1 class="title_Category">  ${_("Information Technology")}</h1>
+                  </a>
+                </div>
+                <div class="Categories-Info">
+                  <a href="/medical_subject">
+                    <div class="rate-counter-block">
+                        <div class="icon rate-icon image-div">
+                            <img src="${static.url('images/1.png')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                          <h1 class="title_Category"> ${_("Medical")}</h1>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="Categories-Info">
+                  <a href="/programming_subject">
+                    <div class="rate-counter-block">
+                        <div class="icon rate-icon image-div">
+                            <img src="${static.url('images/programming.png')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                          <h1 class="title_Category"> ${_("Programming")}</h1>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="Categories-Info">
+                  <a href="${marketing_link('COURSES')}">
+                    <div class="rate-counter-block">
+                        <div class="icon rate-icon image-div">
+                            <img src="${static.url('images/all.jpg')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                          <h1 class="title_Category">  ${_("All")}</h1>
+                    </div>
+                  </a>
+                </div>
+         
+               
+                </div>
+            </div>
+        </div>
+    </div>
+  ##_____________________________________________
+
+
+            <%include file="${courses_list}" />
+             <%include file="latest_courses_list.html" args="course=course" />
+
+
+
+% if show_homepage_promo_video:
+  <section id="video-modal" class="modal home-page-video-modal video-modal">
+    <div class="inner-wrapper">
+      <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${homepage_promo_video_youtube_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+% endif
+
+<%block name="js_extra">
+   <script type="text/javascript">
+      $(window).load(function() {
+         if(getParameterByName('next')) {
+              $('#login').trigger("click");
+         }
+      })
+   </script>
+</%block>
+
+% if show_signup_immediately is not UNDEFINED:
+  ## NOTE: This won't work in production, because anonymous views are cached, so it will
+  ## show either with or without this extra js for 3 minutes at a time.
+<script type="text/javascript">
+  $(window).load(function() {$('#signup_action').trigger("click");});
+</script>
+% endif
