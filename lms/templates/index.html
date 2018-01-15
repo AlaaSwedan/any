@@ -15,14 +15,34 @@ from openedx.core.djangolib.markup import HTML, Text
     <section class="home">
       <section class="promo-box">
         <div class="promo-box_wrapper">
-          <div class="promo-box_helper"></div>
-          <div class="promo-box_holder">
+          <!-- <div class="promo-box_helper"></div> -->
+          <ul class='slideshow'>
+        <li>
+          
+          <span>Summer</span>
+        </li>
+        <li>
+          
+          <span>Fall</span>
+        </li>
+        <li>
+          
+          <span>Winter</span>
+        </li>
+   
+      </ul>
+      <div class="center-content">
+         <div class="intro-content text-center">
+           <div class="promo-box_holder">
             <span class="promo-box_text">${_('The best site for education')}</span>
             <h1 class="promo-box_heading">${_('WELCOME TO EGYMOOCS !')}</h1>
             <a class="theme-btn theme-btn__invert" href="/courses">${_('start learning now')}</a>
           </div>
+         </div>
+      </div>
         </div>
       </section>
+      
   
       
     </section>
@@ -42,7 +62,7 @@ from openedx.core.djangolib.markup import HTML, Text
                 <div class="Categories-Info">
                   <a href="/info_technology_subject">
                         <div class="icon rate-icon image-div">
-                            <img src="${static.url('images/information tecn.jpg')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                            <img src="/static/themes_for_themex.io-marvel-blue-theme-ginkgo/images/information tecn.jpg" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
                         </div>
                           <h1 class="title_Category">  ${_("Information Technology")}</h1>
                   </a>
@@ -51,7 +71,7 @@ from openedx.core.djangolib.markup import HTML, Text
                   <a href="/medical_subject">
                     <div class="rate-counter-block">
                         <div class="icon rate-icon image-div">
-                            <img src="${static.url('images/1.png')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                            <img src="/static/themes_for_themex.io-marvel-blue-theme-ginkgo/images/1.png" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
                         </div>
                           <h1 class="title_Category"> ${_("Medical")}</h1>
                     </div>
@@ -62,7 +82,7 @@ from openedx.core.djangolib.markup import HTML, Text
                   <a href="/programming_subject">
                     <div class="rate-counter-block">
                         <div class="icon rate-icon image-div">
-                            <img src="${static.url('images/programming.png')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                            <img src="/static/themes_for_themex.io-marvel-blue-theme-ginkgo/images/programming.png" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
                         </div>
                           <h1 class="title_Category"> ${_("Programming")}</h1>
                     </div>
@@ -73,7 +93,7 @@ from openedx.core.djangolib.markup import HTML, Text
                   <a href="${marketing_link('COURSES')}">
                     <div class="rate-counter-block">
                         <div class="icon rate-icon image-div">
-                            <img src="${static.url('images/all.jpg')}" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                            <img src="/static/themes_for_themex.io-marvel-blue-theme-ginkgo/images/all.jpg" alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
                         </div>
                           <h1 class="title_Category">  ${_("All")}</h1>
                     </div>

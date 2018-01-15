@@ -105,10 +105,32 @@ from openedx.core.lib.courses import course_image_url
   <script src="${static.url('js/course_info.js')}"></script>
 </%block>
 
+<section id="course_parallax" class="section-white page-title-wrapper" data-stellar-background-ratio="1" data-stellar-offset-parent="true" style="background-position: 0% 0%;">
+      <div class="container">
+        <div class="relative">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title text-center">
+              <h4>Our Courses</h4>
+              <hr>
+              <p>Check Out Our Latest Courses</p>
+              <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Courses</li>
+              </ol>
+
+              </div><!-- end title -->
+            </div><!-- end col -->
+          </div><!-- end row -->
+        </div><!-- end relative -->
+      </div><!-- end container -->
+    </section>
+
+
 <%block name="pagetitle">${course.display_name_with_default_escaped}</%block>
 
 <section class="course-info">
-  <header class="promo-box promo-box__course">
+  <header class="promo-box promo-box__course Course-about">
     <div class="promo-box_wrapper">
       <img class="promo-box_img" src="${course_image_url(course)}" alt="" />
       <div class="promo-box_helper"></div>
