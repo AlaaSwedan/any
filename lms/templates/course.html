@@ -17,7 +17,7 @@ from django.core.urlresolvers import reverse
         
         <div class="bg-white pinside40 outline direction" style="height: 125px;">
             <h6 style="height: 35px;" class="Course_Head">
-              <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}" class="title course-header" style="font-size: 28px;">${course.display_name_with_default}</a>
+              <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}" class="title course-header" style="font-size: 15px;">${course.display_name_with_default}</a>
               </h6>
              <span class="meta-author">
              <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}" style="font-size: 14px;"> ${course.display_org_with_default}</a></span>
