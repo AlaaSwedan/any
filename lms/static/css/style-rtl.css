@@ -639,8 +639,8 @@ width: 100% !important
   position: relative;
     width: 100%;
     height: auto;
+      padding-right: 20%;
     padding-left: 20%;
-    padding-right: 16%;
 }
 .my-mobile2{margin-left: 260px;
 }
@@ -649,3 +649,30 @@ width: 100% !important
 .mobile-img-pad{
   padding: 28px 0;
 }
+.course-staff h3+p:after{
+      background: #ffffff !important;
+}
+.teacher-image {
+    float: right !important;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 9px !important;
+}
+.find-courses .courses .course a {
+    /* position: relative; */
+    display: inherit !important;
+}
+.promo-box_img {
+    width: 100%;
+     height: auto; 
+    position: absolute;
+    top: 76% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100% !important;}
+    .Head{
+      font:43px/1.3 'Work Sans', sans-serif;
+    }
