@@ -10,9 +10,41 @@
 {% block wiki_contents %}
 
 <style type="text/css">
-/*.WikiTab{
-  float: right !important;
-}*/
+@font-face {
+  font-family: 'DroidKufi';
+  src: local('☺'), url("/static/themes_for_themex.io-marvel-blue-theme-ginkgo/fonts/DroidKufi-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-kufi{
+  font-family: 'DroidKufi';
+}
+*{
+  font-family: 'DroidKufi' !important;
+  line-height: 1.5em !important;
+}
+html ,body{
+  text-align: justify;
+  font-family: 'DroidKufi' !important;
+  line-height: 1.5em !important;
+}
+h1,h2,h3,h4,h5,h6,span,a,p{
+  font-family: 'DroidKufi' !important;
+  line-height: 1.5em !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, label{
+  text-align: inherit !important;
+}
+.section-title h1{
+    font-family: 'DroidKufi' !important;
+}
+.fa{
+  font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+
 
 </style>
 

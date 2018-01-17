@@ -12,7 +12,9 @@
 .font-family{
   font:'OpenSans' !important;
 }
-
+body, h1, h2, h3, h4, h5, h6, p, label{
+  text-align: inherit !important;
+}
 body{
     font-family: 'OpenSans';
     direction: ltr !important;
@@ -24,12 +26,12 @@ body{
 
 
 
-.theme-nav-wrapper_logo-holder img {
+/*.theme-nav-wrapper_logo-holder img {
    
     width: 299px !important;
     padding-top: 9px !important;
     height: 100px !important;
-}
+}*/
   .theme-header-info{
       padding: 0 !important;
     }
@@ -205,13 +207,13 @@ body{
     line-height: 1.5em !important;
 
 }
-.logo-2-2 {
+/*.logo-2-2 {
       width: 233px !important;
     height: 45px !important;
     padding-right: 93px !important;
     margin-top: 17px !important;
 
-}
+}*/
 @media (max-width: 500px){
   .logo-2-2 {
     display: none;
@@ -280,10 +282,15 @@ body{
 a:hover{
   text-decoration: none;
 }
-.Logo-2 img{
+/*.Logo-2 img{
 height: 60px !important;
 width: 100% !important
     
+}*/
+.Logo-2 img{
+  width: 230px !important;
+    height: 60px !important;
+    margin-top: 22px !important;
 }
 .theme-nav-wrapper_logo-holder {
     overflow: visible !important;
@@ -654,3 +661,20 @@ width: 100% !important
     .Head{
       font:43px/1.3 'Work Sans', sans-serif;
     }
+
+.wiki-wrapper section.wiki .breadcrumbs-header {
+  
+    padding: 22px 0 54px !important;
+    
+}
+
+.promo-box_heading{
+text-transform: none !important;
+}
+.section-title p{
+  text-transform: none !important;
+}
+
+.about {
+    font-family: DroidKufi !important;
+}
