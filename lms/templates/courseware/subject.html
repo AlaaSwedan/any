@@ -40,12 +40,12 @@
           <div class="row">
             <div class="col-md-12">
               <div class="section-title text-center">
-              <h4>Our courses</h4>
+              <h4>${_("Explore courses")}</h4>
               <hr>
-              <p>Check Out Our courses</p>
+             
               <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li class="active">courses</li>
+                <li><a href="${marketing_link('ROOT')}">${_("Home ")}</a></li>
+                <li class="active">${_("Explore courses")}</li>
               </ol>
 
               </div><!-- end title -->
@@ -57,7 +57,7 @@
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="find-courses" >
-      <section class="courses-container">
+      <!-- <section class="courses-container">
         <div class="row">
           <div class=" col-md-12 col-sm-12 col-xs-12 text-center rate-table">
             <div class="mb60 text-center section-title">
@@ -66,15 +66,14 @@
              %endif
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
-          <ul class="courses-listing">
           % if courses:
+          <div class="row">
               %for course in courses:
-                <li class="courses-listing-item">
-                 <%include file="../course.html" args="course=course" />
-                </li>
+                 <%include file="../course_all.html" args="course=course" />
               %endfor
+              </div>
             %else:
                 <div class="rate-table ">
                   <div class="container">
@@ -93,7 +92,6 @@
                   </div>
                 </div>
             %endif
-          </ul>
         </div>
 
 

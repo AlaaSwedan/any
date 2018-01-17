@@ -7,7 +7,7 @@ from django.core.urlresolvers import reverse
 %>
 <%page args="course" expression_filter="h"/>
 
-  <div class="col-md-3  col-sm-6 col-xs-12 course float" id="${course.id}" role="region" aria-label="${course.display_name_with_default}">
+  <div class="col-md-3  col-sm-6 col-xs-12 course float" style="margin-left:19px " id="${course.id}" role="region" aria-label="${course.display_name_with_default}">
   <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
     
        <div class="post-block mb30">
