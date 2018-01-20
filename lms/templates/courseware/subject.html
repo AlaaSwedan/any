@@ -32,7 +32,21 @@
 </%block>
 % endif
 
+<style type="text/css">
+  .find-courses .courses .course {
+    background: none !important;
+    border: none !important;
 
+    box-shadow: none !important;
+   
+}
+@media (min-width: 1200px){
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+}
+</style>
 <%block name="pagetitle">${_("Courses")}</%block>
 <section id="course_parallax" class="section-white page-title-wrapper" data-stellar-background-ratio="1" data-stellar-offset-parent="true" style="background-position: 0% 0%;">
       <div class="container">

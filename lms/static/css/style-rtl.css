@@ -725,11 +725,11 @@ text-transform: none !important;
 .course-info header.course-profile .intro-inner-wrapper{
   box-shadow: none !important;
 }
-.details ,.course-sidebar{
+/*.details ,.course-sidebar{
   background: rgba(255,255,255,0.93) !important;
     border: 1px solid #646464 !important;
     padding: 13px !important;
-}
+}*/
 .course-info{
   background: #f5f5f5;
 }
@@ -796,4 +796,15 @@ text-transform: none !important;
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong:hover:not(:disabled){
   background-color: #054c75 !important;
       background-image: none !important;
+}
+
+.content-wrapper .container *, .content-wrapper section.outside-app *, .content-wrapper .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy *, .view-profile .profile-self .wrapper-profile-field-account-privacy .content-wrapper .u-field-account_privacy *, .content-wrapper .view-profile .wrapper-profile-sections *, .view-profile .content-wrapper .wrapper-profile-sections *, .content-wrapper .view-profile .badge-set-display *, .view-profile .content-wrapper .badge-set-display *{
+      font-family: 'DroidKufi' !important;
+}
+
+.progress {
+    display: initial !important;
+    
+    text-align: right !important;
+   
 }
