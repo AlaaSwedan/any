@@ -808,3 +808,18 @@ text-transform: none !important;
     text-align: right !important;
    
 }
+/*amira 21-1-2018*/
+.Dis_footer{
+
+  padding-top: 4px;
+  padding-right: 0px;
+}
+
+.Dis_footer li a:hover{
+  color: #fff !important;
+  transition-timing-function: ease-in-out;
+}
+.theme-main-nav_list li a{
+
+font-size: 22px !important
+}

@@ -20,12 +20,14 @@
        
       </div>
       <div class="theme-footer_col">
-     <ol class="Dis_footer">
+      <h2 class="theme-footer_col-header">${_("Quick Links")}</h2>
+     <ol class="Dis_footer" >
                                 % for item_num, link in enumerate(footer['navigation_links'], start=1):
                                 <li class="nav-colophon-0${item_num}">
                                   <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
                                 </li>
                                 % endfor
+                                <li> <a href="/termsOFservice">${_("Terms of Service and Academic Charter of Honor")}</a></li>
                             </ol>
       </div>
       <div class="theme-footer_col">
@@ -47,16 +49,10 @@
         <div class="row Dis_Footer">
               <div >
                     <p> 
-                   ${_("Designed and customized by")}<a  target="_blank" href="http://edeltasoft.com" rel="home"> Delta Soft &nbsp; <img src="http://edeltasoft.com/wp-content/uploads/2016/04/delta_icon.png" alt=""> </a>
+                   ${_("Designed and customized by ")}<a  target="_blank" href="http://edeltasoft.com" rel="home">Delta Soft<img src="http://edeltasoft.com/wp-content/uploads/2016/04/delta_icon.png" alt=""> </a>
                     </p>
                 </div>
-                <div>
-                <p >
-                <a href="/termsOFservice">${_("Terms of Service and Academic Charter of Honor")}</a> 
-                      
-                </p>                    
-           
-                </div>
+               
         </div>
       </div>
   </div>
