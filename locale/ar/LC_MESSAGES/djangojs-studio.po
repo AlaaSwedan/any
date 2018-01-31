@@ -1,0 +1,1376 @@
+# edX translation file.
+# Copyright (C) 2018 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Abdallah Nassif <abdoosh00@gmail.com>, 2013
+# abdallah.nassif <abdallah_n@hotmail.com>, 2013
+# Abdallah Nassif <abdoosh00@gmail.com>, 2013,2015
+# Abdelghani Gadiri <wh.gnu.linux@gmail.com>, 2014
+# Ahmad AbdArrahman <mygooglizer@gmail.com>, 2013
+# Ahmad AbdArrahman <mygooglizer@gmail.com>, 2013
+# Ahmed Jazzar <ajazzar@qrf.org>, 2015
+# Ahmed Jazzar <ajazzar@qrf.org>, 2015-2016
+# AR C2 <e2f458fd4s512@outlook.com>, 2016
+# AR R1 <e2far1@hotmail.com>, 2016
+# e2f_ar r3 <e2f_ar_r3@outlook.com>, 2016-2017
+# e2f_ar t3 <e2f_ar_t3@outlook.com>, 2016
+# Mahmoud Elkhateeb <eng.elkhteeb@gmail.com>, 2013
+# Mahmoud Elkhateeb <eng.elkhteeb@gmail.com>, 2013
+# may <may@qordoba.com>, 2013
+# may <may@qordoba.com>, 2014-2015
+# Nabeel El-Dughailib <nabeel@qordoba.com>, 2014-2015
+# Najwan Al Rousan <najwanrousan@gmail.com>, 2013
+# Najwan Al Rousan <najwanrousan@gmail.com>, 2013
+# Nashwan Naji <nashwanameen@gmail.com>, 2016
+# Natalia Berdnikov <nberdnikov@edx.org>, 2016
+# RaghadG <raghad_g@yahoo.com>, 2014
+# RaghadG <raghad_g@yahoo.com>, 2014
+# Sahbi BG <sahbi.g@gmail.com>, 2017
+# Sahbi BG <sahbi.g@gmail.com>, 2017
+# shefaa abu jabel <shefaa.aj@gmail.com>, 2016
+# Soha Assali <soha+transifex@qordoba.com>, 2015-2016
+# soliman osman <solimanosman@windowslive.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2018-01-25 11:35+0000\n"
+"PO-Revision-Date: 2018-01-25 11:59+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: Arabic (http://www.transifex.com/open-edx/edx-platform/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:98
+msgid "OpenAssessment Save Error"
+msgstr "نأسف لحدوث خطأ في حفظ التقييم المفتوح."
+
+#: cms/static/js/base.js:71
+msgid "This link will open in a new browser window/tab"
+msgstr "سيفتح هذا الرابط في نافذة متصفّح جديدة/تبويبة جديدة"
+
+#: cms/static/js/base.js:75
+msgid "This link will open in a modal window"
+msgstr "سيفتح هذا الرابط في نافذة منبثقة جديدة."
+
+#: cms/static/js/certificates/collections/certificates.js:37
+msgid "Could not parse certificate JSON. %(message)s"
+msgstr "تعذّر تفسير JSON الشهادة. %(message)s"
+
+#: cms/static/js/certificates/models/certificate.js:77
+msgid "Certificate name is required."
+msgstr "اسم الشهادة مطلوب."
+
+#: cms/static/js/certificates/models/certificate.js:86
+msgid "Signatory field(s) has invalid data."
+msgstr "يحتوي حقل (حقول) الموقّع على بيانات غير صالحة."
+
+#: cms/static/js/certificates/views/certificate_details.js:45
+msgid "Edit this certificate?"
+msgstr "هل تريد تعديل الشهادة؟"
+
+#: cms/static/js/certificates/views/certificate_details.js:46
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr "هذه الشهادة نشطةُ وموجودةُ بالفعل! هل أنت متأكد من رغبتك في الاستمرار؟"
+
+#: cms/static/js/certificates/views/certificate_details.js:47
+msgid "Yes, allow edits to the active Certificate"
+msgstr "نعم، اقبل التعديل على على الشهادت النشطة."
+
+#. Translators: This field pertains to the custom label for a certificate.
+#. Translators: this refers to a collection of certificates.
+#: cms/static/js/certificates/views/certificate_item.js:21
+#: cms/static/js/certificates/views/certificates_list.js:16
+msgid "certificate"
+msgstr "الشهادة"
+
+#: cms/static/js/certificates/views/certificates_list.js:18
+msgid "Set up your certificate"
+msgstr "أعدّ شهادتك"
+
+#. Translators: This line refers to the initial state of the form when no data
+#. has been inserted
+#: cms/static/js/certificates/views/certificates_list.js:21
+msgid "You have not created any certificates yet."
+msgstr "لم تُنشِئ أي شهادات بعد."
+
+#: cms/static/js/certificates/views/signatory_editor.js:133
+msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
+msgstr "هل تريد حذف \"<%= signatoryName %>\" من لائحة الموقّعين؟"
+
+#: cms/static/js/certificates/views/signatory_editor.js:136
+#: cms/static/js/views/course_info_update.js:241
+msgid "This action cannot be undone."
+msgstr "يتعذّر التراجع عن هذه العملية لاحقًا. "
+
+#: cms/static/js/certificates/views/signatory_editor.js:142
+#: cms/static/js/views/course_info_update.js:252
+#: cms/static/js/views/list_item.js:62 cms/static/js/views/show_textbook.js:42
+#: cms/static/js/views/tabs.js:173
+#: cms/static/js/views/utils/xblock_utils.js:133
+msgid "Deleting"
+msgstr "جاري الحذف"
+
+#: cms/static/js/certificates/views/signatory_editor.js:174
+msgid "Upload signature image."
+msgstr "يُرجى تحميل صورة الموقِّع."
+
+#: cms/static/js/certificates/views/signatory_editor.js:175
+msgid "Image must be in PNG format."
+msgstr "يجب أن تكون الصورة بصيغة PNG."
+
+#: cms/static/js/collections/group.js:42
+#, javascript-format
+msgid "Group %s"
+msgstr "المجموعة %s"
+
+#. Translators: Dictionary used for creation ids that are used in
+#. default group names. For example: A, B, AA in Group A,
+#. Group B, ..., Group AA, etc.
+#: cms/static/js/collections/group.js:62
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي"
+
+#: cms/static/js/factories/export.js:35
+msgid "Your export has failed."
+msgstr ""
+
+#: cms/static/js/factories/manage_users.js:10
+msgid "Already a course team member"
+msgstr "عضو مسبق في فريق المساق"
+
+#: cms/static/js/factories/manage_users.js:12
+msgid ""
+"Are you sure you want to delete {email} from the course team for "
+"“{container}”?"
+msgstr "هل أنت متأكّد من رغبتك في حذف {email} من فريق المساق لـ \"{container}\"؟"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:21
+msgid "Staff"
+msgstr "طاقم المساق"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:22
+msgid "Admin"
+msgstr "مشرِف"
+
+#: cms/static/js/factories/manage_users_lib.js:10
+msgid "Already a library team member"
+msgstr "عضو مسبَق في فريق المكتبة"
+
+#: cms/static/js/factories/manage_users_lib.js:12
+msgid ""
+"Are you sure you want to delete {email} from the library “{container}”?"
+msgstr "هل أنت متأكّد من رغبتك في حذف {email} من مكتبة \"{container}\"؟"
+
+#: cms/static/js/factories/manage_users_lib.js:20
+msgid "Library User"
+msgstr "مستخدم المكتبة"
+
+#: cms/static/js/factories/settings_advanced.js:32
+msgid "Hide Deprecated Settings"
+msgstr "إخفاء الإعدادات المهملة"
+
+#: cms/static/js/factories/settings_advanced.js:36
+msgid "Show Deprecated Settings"
+msgstr "إظهار الإعدادات المهملة"
+
+#: cms/static/js/factories/textbooks.js:16
+#: cms/static/js/views/pages/group_configurations.js:83
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "لديك تغييرات غير محفّظة. هل تريد حقًّا أن تغادر الصفحة؟"
+
+#: cms/static/js/maintenance/force_publish_course.js:71
+msgid "Internal Server Error."
+msgstr "خطأ في خادم الإنترنت."
+
+#. Translators: This is the status of a video upload that is queued
+#. waiting for other uploads to complete
+#: cms/static/js/models/active_video_upload.js:9
+msgid "Queued"
+msgstr "تحميل قيد الانتظار"
+
+#. Translators: This is the status of a video upload that has
+#. completed successfully
+#: cms/static/js/models/active_video_upload.js:14
+msgid "Upload completed"
+msgstr "استُكمل التحميل "
+
+#. Translators: This is the status of a video upload that has failed
+#: cms/static/js/models/active_video_upload.js:16
+msgid "Upload failed"
+msgstr "عذرًا، لم ينجح التحميل."
+
+#: cms/static/js/models/chapter.js:35
+msgid "Chapter name and asset_path are both required"
+msgstr "كل من الحقلين ’اسم الفصل‘ و ’مسار المادّة الموجودة‘ مطلوب."
+
+#: cms/static/js/models/chapter.js:40
+msgid "Chapter name is required"
+msgstr "اسم الفصل مطلوب"
+
+#: cms/static/js/models/chapter.js:45
+msgid "asset_path is required"
+msgstr "مسار المادة الموجودة مطلوب"
+
+#: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
+msgid "You must specify a name"
+msgstr "عليك أن تحدّد اسمًا."
+
+#: cms/static/js/models/course_update.js:14
+msgid "Action required: Enter a valid date."
+msgstr "إجراء لازم: أدخل تاريخاً صالحاً."
+
+#: cms/static/js/models/group.js:40
+msgid "Group name is required"
+msgstr "اسم المجموعة مطلوب"
+
+#: cms/static/js/models/group_configuration.js:16
+msgid "Group A"
+msgstr "المجموعة أ"
+
+#: cms/static/js/models/group_configuration.js:20
+msgid "Group B"
+msgstr "المجموعة ب"
+
+#: cms/static/js/models/group_configuration.js:88
+msgid "Group Configuration name is required."
+msgstr "اسم إعدادات المجموعة مطلوب"
+
+#: cms/static/js/models/group_configuration.js:95
+msgid "There must be at least one group."
+msgstr "يحب أن توجد مجموعة واحدة على الأقلّ."
+
+#: cms/static/js/models/group_configuration.js:112
+msgid "All groups must have a name."
+msgstr "يجب أن يتوفّر اسم لكلّ مجموعة."
+
+#: cms/static/js/models/group_configuration.js:120
+msgid "All groups must have a unique name."
+msgstr "يجب أن يكون لكل مجموعة اسم خاص بها."
+
+#: cms/static/js/models/settings/course_details.js:48
+msgid "The course must have an assigned start date."
+msgstr "يجب أن يكون للمساق تاريخ بدء معيّن."
+
+#: cms/static/js/models/settings/course_details.js:52
+msgid "The course end date must be later than the course start date."
+msgstr "يجب أن يأتي تاريخ انتهاء المساق بعد تاريخ بدئه."
+
+#: cms/static/js/models/settings/course_details.js:55
+msgid "The course start date must be later than the enrollment start date."
+msgstr "يجب أن يأتي تاريخ بدء المساق بعد تاريخ التسجيل فيه."
+
+#: cms/static/js/models/settings/course_details.js:58
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr "لا يمكن لتاريخ بدء التسجيل في المساق أن يأتي بعد تاريخ انتهاء التسجيل فيه. "
+
+#: cms/static/js/models/settings/course_details.js:61
+msgid "The enrollment end date cannot be after the course end date."
+msgstr "لا يمكن لتاريخ انتهاء التسجيل في المساق أن يأتي بعد تاريخ انتهاء المساق."
+
+#: cms/static/js/models/settings/course_details.js:66
+msgid "The certificate available date must be later than the course end date."
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js:71
+msgid "Key should only contain letters, numbers, _, or -"
+msgstr "لا يجب أن يحتوي المفتاح سوى على حروف، أو أرقام، أو _، أو -"
+
+#: cms/static/js/models/settings/course_details.js:81
+msgid "Please enter an integer between %(min)s and %(max)s."
+msgstr "يُرجى إدخال عدد صحيح يتراوح بين %(min)s و%(max)s."
+
+#: cms/static/js/models/settings/course_grader.js:27
+msgid "The assignment type must have a name."
+msgstr ""
+
+#: cms/static/js/models/settings/course_grader.js:32
+msgid "There's already another assignment type with this name."
+msgstr "يوجد مسبقًا نوع آخر من الواجبات بهذا الاسم."
+
+#: cms/static/js/models/settings/course_grader.js:39
+msgid "Please enter an integer between 0 and 100."
+msgstr "يُرجى إدخال عدد صحيح بين 0 و 100."
+
+#: cms/static/js/models/settings/course_grader.js:54
+msgid "Please enter an integer greater than 0."
+msgstr "يُرجى إدخال عدد صحيح أكبر من 0."
+
+#: cms/static/js/models/settings/course_grader.js:61
+msgid "Please enter non-negative integer."
+msgstr "يُرجى إدخال عدد صحيح غير سالب."
+
+#: cms/static/js/models/settings/course_grader.js:66
+msgid "Cannot drop more <%= types %> assignments than are assigned."
+msgstr "لا يمكن إتاحة أنواع مهام <%= types %> أكثر مما تمّ تعيينه."
+
+#: cms/static/js/models/settings/course_grading_policy.js:67
+msgid "Grace period must be specified in HH:MM format."
+msgstr "يجب تحديد فترة السماح بصيغة HH:MM."
+
+#: cms/static/js/models/settings/course_grading_policy.js:77
+msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
+msgstr "لم يمكن تحديد درجة النجاح عند أقلّ من %(minimum_grade_cutoff)s%."
+
+#: cms/static/js/models/textbook.js:62
+msgid "Textbook name is required"
+msgstr "اسم الكتاب مطلوب"
+
+#: cms/static/js/models/textbook.js:68
+msgid "Please add at least one chapter"
+msgstr "يٌرجى إضافة فصل واحد على الأقل"
+
+#: cms/static/js/models/textbook.js:81
+msgid "All chapters must have a name and asset"
+msgstr "يجب أن يتوفّر اسم ومادّة لجميع الفصول."
+
+#: cms/static/js/models/uploads.js:17
+msgid ""
+"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
+"<%= fileExtensions %> to upload."
+msgstr "لا يمكن تحميل سوى الملفّات <%= fileTypes %>. لذا يُرجى اختيار ملف ينتهي بـ <%= fileExtensions %> لتحميله. "
+
+#: cms/static/js/models/uploads.js:63
+msgid "or"
+msgstr "أو"
+
+#: cms/static/js/models/xblock_validation.js:23
+msgid "This unit has validation issues."
+msgstr ""
+
+#: cms/static/js/models/xblock_validation.js:25
+msgid "This component has validation issues."
+msgstr "هناك إشكالات في المصادقة على هذا المكوِّن."
+
+#: cms/static/js/views/active_video_upload.js:41
+#: cms/static/js/views/assets.js:210
+msgid "Your file could not be uploaded"
+msgstr "عذرًا، لم يمكن تحميل ملفّك. "
+
+#: cms/static/js/views/active_video_upload_list.js:27
+msgid "Upload Videos"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:29
+msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:56
+msgid "Maximum file size: {maxFileSize} GB"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:62
+msgid "Supported file types: {supportedVideoTypes}"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:155
+msgid "Your video uploads are not complete."
+msgstr "عمليات تحميل ملف الفيديو الخاص بك غير مكتملة."
+
+#: cms/static/js/views/active_video_upload_list.js:296
+msgid "Upload completed for video {fileName}"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:330
+#: cms/static/js/views/active_video_upload_list.js:354
+msgid "Upload failed for video {fileName}"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:383
+msgid ""
+"{filename} is not in a supported file format. Supported file formats are "
+"{supportedFileFormats}."
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:390
+msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:425
+msgid ": video upload complete."
+msgstr "تم تحميل الفيديو:"
+
+#: cms/static/js/views/active_video_upload_list.js:434
+msgid "Previous Uploads table has been updated."
+msgstr "تم تحديث قائمة التحميلات السابقة."
+
+#: cms/static/js/views/asset.js:50
+msgid "Delete File Confirmation"
+msgstr "تأكيد حذف الملف"
+
+#: cms/static/js/views/asset.js:51
+msgid ""
+"Are you sure you wish to delete this item. It cannot be reversed!\n"
+"\n"
+"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+msgstr "هل أنت واثق من رغبتك في حذف هذا الموضوع؟ لا يمكن التراجع عن هذه العملية لاحقًا!\n\nكما أنّ أي محتوى يتضمّن رابطًا أو مرجعًا لهذا الموضوع لن يعود فعّالًا (مثل صور و/أو روابط غير فعّالة)"
+
+#: cms/static/js/views/asset.js:61
+msgid "Your file has been deleted."
+msgstr "جرى حذف ملفّك."
+
+#: cms/static/js/views/assets.js:111
+msgid "Date Added"
+msgstr "تاريخ الإضافة "
+
+#: cms/static/js/views/assets.js:112
+msgid "Type"
+msgstr "النوع"
+
+#: cms/static/js/views/assets.js:197
+msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
+msgstr "يزيد حجم الملف {filename} عن الحدّ الأقصى المسموح به وهو {maxFileSizeInMBs} ميغابايت. "
+
+#: cms/static/js/views/assets.js:204
+msgid ""
+"Please follow the instructions here to upload a file elsewhere and link to "
+"it: {maxFileSizeRedirectUrl}"
+msgstr "يُرجى اتّباع التعليمات الواردة هنا لتغيير مكان تحميل الملفّات التي يزيد حجمها عن الحد الأقصى المسموح به ولوضع رابط لها: {maxFileSizeRedirectUrl}"
+
+#: cms/static/js/views/assets.js:216
+msgid "Max file size exceeded"
+msgstr "جرى تجاوز الحدّ الأقصى المسموح به لحجم الملف. "
+
+#: cms/static/js/views/assets.js:334 cms/static/js/views/assets.js:348
+msgid "Upload New File"
+msgstr "تحميل ملف جديد"
+
+#: cms/static/js/views/assets.js:339 cms/static/js/views/assets.js:353
+msgid "Load Another File"
+msgstr "تحميل ملف آخر"
+
+#: cms/static/js/views/components/add_xblock.js:66
+#: cms/static/js/views/utils/xblock_utils.js:51
+msgid "Adding"
+msgstr "جاري الإضافة"
+
+#: cms/static/js/views/course_info_update.js:240
+msgid "Are you sure you want to delete this update?"
+msgstr "هل أنت واثق من رغبتك في حذف هذا التحديث؟"
+
+#: cms/static/js/views/course_rerun.js:47
+msgid "Create Re-run"
+msgstr "خلق وحدة مُعاد تنفيذها"
+
+#: cms/static/js/views/course_rerun.js:53
+msgid "Processing Re-run Request"
+msgstr "جاري معالجة طلب إعادة التنفيذ"
+
+#: cms/static/js/views/course_video_settings.js:25
+msgid "An error has occurred. Wait a few minutes, and then try again."
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:304
+msgid "Select turnaround"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:332
+msgid "Select fidelity"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:384
+#: cms/static/js/views/course_video_settings.js:420
+msgid "Select language"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:472
+msgid "Press Remove to remove language"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:482
+msgid "Settings updated"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:491
+msgid "Last updated"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:554
+msgid "Required"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:681
+msgid "Automatic transcripts are disabled."
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:718
+msgid "{selectedProvider} credentials saved"
+msgstr ""
+
+#: cms/static/js/views/edit_chapter.js:62
+msgid "Upload a new PDF to “<%= name %>”"
+msgstr "حمّل ملف PDF جديد إلى “<%= name %>”."
+
+#: cms/static/js/views/edit_chapter.js:64
+msgid "Please select a PDF file to upload."
+msgstr "يُرجى اختيار ملف PDF لتحميله. "
+
+#: cms/static/js/views/export.js:312
+msgid "There has been an error while exporting."
+msgstr "نأسف لحدوث خطأ خلال التصدير."
+
+#: cms/static/js/views/export.js:313
+msgid ""
+"There has been a failure to export to XML at least one component. It is "
+"recommended that you go to the edit page and repair the error before "
+"attempting another export. Please check that all components on the page are "
+"valid and do not display any error messages."
+msgstr ""
+
+#: cms/static/js/views/export.js:320
+msgid "Correct failed component"
+msgstr "يُرجى تصحيح المكوِّن الذي تعذّر تصديره. "
+
+#: cms/static/js/views/export.js:327
+msgid "Return to Export"
+msgstr "العودة إلى التصدير"
+
+#: cms/static/js/views/export.js:336
+msgid ""
+"Your library could not be exported to XML. There is not enough information "
+"to identify the failed component. Inspect your library to identify any "
+"problematic components and try again."
+msgstr ""
+
+#: cms/static/js/views/export.js:339
+msgid "Take me to the main library page"
+msgstr "أرجو أخذي إلى صفحة المكتبة."
+
+#: cms/static/js/views/export.js:341
+msgid ""
+"Your course could not be exported to XML. There is not enough information to"
+" identify the failed component. Inspect your course to identify any "
+"problematic components and try again."
+msgstr ""
+
+#: cms/static/js/views/export.js:344
+msgid "Take me to the main course page"
+msgstr "أرجو أخذي إلى الصفحة الرئيسية للمساق."
+
+#: cms/static/js/views/export.js:346
+msgid "The raw error message is:"
+msgstr "نص رسالة الخطأ هي:"
+
+#: cms/static/js/views/export.js:348
+msgid "There has been an error with your export."
+msgstr "نأسف لحدوث خطأ في عملية التصدير التي أجريتها. "
+
+#. Translators: 'count' is number of groups that the group
+#. configuration contains.
+#: cms/static/js/views/group_configuration_details.js:70
+msgid "Contains {count} group"
+msgid_plural "Contains {count} groups"
+msgstr[0] "تتضمّن {count} مجموعة"
+msgstr[1] "تتضمّن {count} مجموعة"
+msgstr[2] "تتضمّن {count} مجموعة"
+msgstr[3] "تتضمّن {count} مجموعة"
+msgstr[4] "تتضمّن {count} مجموعة"
+msgstr[5] "تتضمّن {count} مجموعة"
+
+#: cms/static/js/views/group_configuration_details.js:81
+#: cms/static/js/views/partition_group_details.js:66
+msgid "Not in Use"
+msgstr "ليس قيد الاستخدام"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#: cms/static/js/views/group_configuration_details.js:89
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. Translators: this refers to a collection of groups.
+#: cms/static/js/views/group_configuration_item.js:26
+#: cms/static/js/views/group_configurations_list.js:18
+msgid "group configuration"
+msgstr "ضبط إعدادات المجموعة"
+
+#: cms/static/js/views/group_configurations_list.js:20
+msgid "Add your first group configuration"
+msgstr "أضف أوّل إعداداتك للمجموعة"
+
+#: cms/static/js/views/group_configurations_list.js:22
+msgid "You have not created any group configurations yet."
+msgstr "لم تنشئ أي إعدادات للمجموعات بعد."
+
+#: cms/static/js/views/instructor_info.js:74
+msgid "Upload instructor image."
+msgstr "رفع صورة الأستاذ."
+
+#: cms/static/js/views/instructor_info.js:75
+#: cms/static/js/views/settings/main.js:437
+msgid "Files must be in JPEG or PNG format."
+msgstr "يجب أن تكون الملفّات بصيغة JPEG أو PNG."
+
+#: cms/static/js/views/license.js:8
+msgid "All Rights Reserved"
+msgstr "جميع الحقوق محفوظة"
+
+#: cms/static/js/views/license.js:9
+msgid "You reserve all rights for your work"
+msgstr "إنّك تحتفظ بجميع حقوق عملك."
+
+#: cms/static/js/views/license.js:12
+msgid "Creative Commons"
+msgstr "النقاط المشتركة المبتكرة"
+
+#: cms/static/js/views/license.js:13
+msgid "You waive some rights for your work, such that others can use it too"
+msgstr "إنّك تتنازل عن بعض حقوق عملك، بخيث يتمكّن الآخرين من استخدامه أيضًا."
+
+#: cms/static/js/views/license.js:17
+msgid "Version"
+msgstr "النسخة"
+
+#: cms/static/js/views/license.js:22
+msgid "Attribution"
+msgstr "نَسب العمل"
+
+#: cms/static/js/views/license.js:25
+msgid ""
+"Allow others to copy, distribute, display and perform your copyrighted work "
+"but only if they give credit the way you request. Currently, this option is "
+"required."
+msgstr "السماح للآخرين بنسخ عملك محفوظ الحقوق وتوزيعه وعرضه وتأديته بشرط نسب العمل إليك بالشكل الذي تطلبه. وهذا الخيار مطلوب حاليًا."
+
+#: cms/static/js/views/license.js:29
+msgid "Noncommercial"
+msgstr "استخدام غير تجاري"
+
+#: cms/static/js/views/license.js:32
+msgid ""
+"Allow others to copy, distribute, display and perform your work - and "
+"derivative works based upon it - but for noncommercial purposes only."
+msgstr "السماح للآخرين بنسخ عملك - والأعمال المقتبسة المبنية عليه - وتوزيعه وعرضه وتأديته، لكن فقط للأغراض غير التجارية."
+
+#: cms/static/js/views/license.js:35
+msgid "No Derivatives"
+msgstr "عدم الاقتباس"
+
+#: cms/static/js/views/license.js:38
+msgid ""
+"Allow others to copy, distribute, display and perform only verbatim copies "
+"of your work, not derivative works based upon it. This option is "
+"incompatible with \"Share Alike\"."
+msgstr "السماح للآخرين بنَسْخ نُسَخ حرفية من عملك - وليس أي أعمال مقتبسة عنه - وتوزيعها وعرضها وتأديتها. ولا يتوافق هذا الخيار مع خيار \"مشاركة بالتساوي\"."
+
+#: cms/static/js/views/license.js:42
+msgid "Share Alike"
+msgstr "مشاركة بالتساوي"
+
+#: cms/static/js/views/license.js:45
+msgid ""
+"Allow others to distribute derivative works only under a license identical "
+"to the license that governs your work. This option is incompatible with \"No"
+" Derivatives\"."
+msgstr "السماح للآخرين بتوزيع أعمال مقتبسة بموجب ترخيص مطابق لترخيص عملك. ولا يتوافق هذا الخيار مع خيار \"عدم الاقتباس\"."
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:50
+msgid "Delete this %(item_display_name)s?"
+msgstr "هل تريد حذف هذا الاسم %(item_display_name)s؟"
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:55
+msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
+msgstr "يُرجى الانتباه إلى أنّ حذف هذا الاسم %(item_display_name)s دائم المفعول وغير قابل للرجوع عنه."
+
+#: cms/static/js/views/manage_users_and_roles.js:11
+msgid "There was an error changing the user's role"
+msgstr "نأسف لحدوث خطأ في تغيير دور المستخدم."
+
+#: cms/static/js/views/manage_users_and_roles.js:15
+msgid "Error adding user"
+msgstr "نأسف لحدوث خطأ في إضافة المستخدم."
+
+#: cms/static/js/views/manage_users_and_roles.js:16
+msgid "Error removing user"
+msgstr "ناسف لحدوث خطأ في حذف المستخدم."
+
+#: cms/static/js/views/manage_users_and_roles.js:19
+msgid "A valid email address is required"
+msgstr "يجب إدخال عنوان صحيح للبريد الإلكتروني."
+
+#: cms/static/js/views/manage_users_and_roles.js:20
+msgid "You must enter a valid email address in order to add a new team member"
+msgstr "يجب عليك أن تُدخِل عنوان صحيح للبريد الإلكتروني لتتمكّن من إضافة عضو جديد إلى الفريق."
+
+#: cms/static/js/views/manage_users_and_roles.js:21
+msgid "Return and add email address"
+msgstr "العودة وإضافة عنوان البريد الإلكتروني."
+
+#: cms/static/js/views/manage_users_and_roles.js:24
+msgid "Already a member"
+msgstr "عضو مسجَّل من قبل"
+
+#: cms/static/js/views/manage_users_and_roles.js:25
+msgid ""
+"{email} is already on the {container} team. Recheck the email address if you"
+" want to add a new member."
+msgstr "{email} هو عضو مسجَّل من قبل في فريق {container}. يُرجى إعادة التحقّق من عنوان البريد الإلكتروني إذا أردت إضافة عضو جديد."
+
+#: cms/static/js/views/manage_users_and_roles.js:26
+msgid "Return to team listing"
+msgstr "العودة إلى إدراج الفريق"
+
+#: cms/static/js/views/manage_users_and_roles.js:29
+msgid "Are you sure?"
+msgstr "هل أنت واثق؟"
+
+#: cms/static/js/views/manage_users_and_roles.js:30
+msgid "Are you sure you want to restrict {email} access to “{container}”?"
+msgstr "هل أنت متأكد من رغبتك في تقييد وصول {email} إلى \"{container}\"؟"
+
+#: cms/static/js/views/modals/course_outline_modals.js:119
+msgid "{display_name} Settings"
+msgstr "إعدادات {display_name}"
+
+#: cms/static/js/views/modals/course_outline_modals.js:199
+msgid "Publish {display_name}"
+msgstr "نشر {display_name}"
+
+#: cms/static/js/views/modals/course_outline_modals.js:206
+msgid "Publish all unpublished changes for this {item}?"
+msgstr "نشر جميع التغييرات غير المنشورة لهذا {item}؟ "
+
+#: cms/static/js/views/modals/course_outline_modals.js:212
+msgid "Publish"
+msgstr "نشر"
+
+#: cms/static/js/views/modals/course_outline_modals.js:233
+msgid "Highlights for {display_name}"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:273
+msgid "Enable Weekly Highlight Emails"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:291
+msgid "Enable"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:292
+msgid "Not yet"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:736
+msgid "All Learners and Staff"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:1040
+msgid "Basic"
+msgstr "أساسي"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1045
+msgid "Visibility"
+msgstr ""
+
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/edit_xblock.js:22
+msgid "Editing: %(title)s"
+msgstr "تعديل: %(title)s"
+
+#: cms/static/js/views/modals/edit_xblock.js:123
+msgid "Unit"
+msgstr ""
+
+#: cms/static/js/views/modals/edit_xblock.js:125
+msgid "Component"
+msgstr "مكوِّن"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:37
+msgid "Move"
+msgstr ""
+
+#: cms/static/js/views/modals/move_xblock_modal.js:38
+msgid "Choose a location to move your component to"
+msgstr ""
+
+#: cms/static/js/views/modals/move_xblock_modal.js:66
+msgid "Move: {displayName}"
+msgstr ""
+
+#: cms/static/js/views/modals/validation_error_modal.js:16
+msgid "Validation Error While Saving"
+msgstr "نأسف لحدوث خطأ أثناء الحفظ."
+
+#: cms/static/js/views/modals/validation_error_modal.js:21
+msgid "Undo Changes"
+msgstr "التراجع عن التغييرات"
+
+#: cms/static/js/views/modals/validation_error_modal.js:22
+msgid "Change Manually"
+msgstr "التغيير يدويًّا "
+
+#: cms/static/js/views/move_xblock_list.js:33
+msgid "Sections"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:34
+msgid "Subsections"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:35
+msgid "Units"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:36
+msgid "Components"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:37
+msgid "Groups"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:179
+msgid "This {parentCategory} has no {childCategory}"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:196
+msgid "Course Outline"
+msgstr ""
+
+#: cms/static/js/views/paged_container.js:254
+msgid "Date added"
+msgstr "تاريخ الإضافة "
+
+#. Translators: "title" is the name of the current component or unit being
+#. edited.
+#: cms/static/js/views/pages/container.js:200
+msgid "Editing access for: %(title)s"
+msgstr ""
+
+#: cms/static/js/views/pages/container_subviews.js:164
+msgid "Publishing"
+msgstr "جاري النشر"
+
+#: cms/static/js/views/pages/container_subviews.js:182
+#: cms/static/js/views/pages/container_subviews.js:184
+msgid "Discard Changes"
+msgstr "تجاهل التغييرات"
+
+#: cms/static/js/views/pages/container_subviews.js:183
+msgid ""
+"Are you sure you want to revert to the last published version of the unit? "
+"You cannot undo this action."
+msgstr "هل أنت واثق من رغبتك في العودة إلى آخر نسخة منشورة من الوحدة؟ لا يمكنك التراجع عن هذه العملية لاحقًا."
+
+#: cms/static/js/views/pages/container_subviews.js:186
+msgid "Discarding Changes"
+msgstr "جاري إلغاء التغييرات"
+
+#: cms/static/js/views/pages/container_subviews.js:233
+msgid "Hiding from Students"
+msgstr "إخفاء عن الطلّاب"
+
+#: cms/static/js/views/pages/container_subviews.js:236
+msgid "Explicitly Hiding from Students"
+msgstr "إخفاء واضح عن الطلّاب"
+
+#: cms/static/js/views/pages/container_subviews.js:239
+msgid "Inheriting Student Visibility"
+msgstr "توارُث الإعداد الخاص بتمكين الطلّاب من الرؤية"
+
+#: cms/static/js/views/pages/container_subviews.js:242
+#: cms/static/js/views/pages/container_subviews.js:244
+msgid "Make Visible to Students"
+msgstr "جعله مرئيًّا للطلّاب"
+
+#: cms/static/js/views/pages/container_subviews.js:243
+msgid ""
+"If the unit was previously published and released to students, any changes "
+"you made to the unit when it was hidden will now be visible to students. Do "
+"you want to proceed?"
+msgstr "في حال نُشرت الوحدة وأُصدرت للطلّاب من قبل، فإنّ أي تغييرات كنت قد أدخلتها عليها عندما كانت مخفية ستصبح الآن مرئية للطلّاب. هل تريد المتابعة؟"
+
+#: cms/static/js/views/pages/container_subviews.js:246
+msgid "Making Visible to Students"
+msgstr "تمكين الطلّاب من الرؤية"
+
+#: cms/static/js/views/pages/course_outline.js:144
+msgid "Course Index"
+msgstr "فهرس المساق"
+
+#: cms/static/js/views/pages/course_outline.js:152
+msgid "There were errors reindexing course."
+msgstr "نأسف لحدوث أخطاء في إعادة فهرسة محتويات المساق."
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Hide Previews"
+msgstr "إخفاء المعاينة"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Show Previews"
+msgstr "إظهار المعاينة"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. ascending"
+#: cms/static/js/views/paging_header.js:52
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} ascending"
+msgstr "عرض {currentItemRange} من أصل {totalItemsCount} المفلتر حسب {assetType}، المصنف حسب {sortName} تصاعديًا   "
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. descending"
+#: cms/static/js/views/paging_header.js:56
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} descending"
+msgstr "عرض {currentItemRange} من أصل {totalItemsCount} المفلتر حسب {assetType}، المصنف حسب {sortName} تنازليًا  "
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
+#: cms/static/js/views/paging_header.js:63
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"ascending"
+msgstr "عرض {currentItemRange} من أصل {totalItemsCount} المصنف حسب {sortName} تصاعديًا  "
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added descending"
+#: cms/static/js/views/paging_header.js:67
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"descending"
+msgstr "عرض {currentItemRange} من أصل {totalItemsCount} المصنف حسب {sortName} تنازليًا     "
+
+#. Translators: turns into "25 total" to be used in other sentences, e.g.
+#. "Showing 0-9 out of 25 total".
+#: cms/static/js/views/paging_header.js:98
+msgid "{totalItems} total"
+msgstr "الإجمالي {totalItems}"
+
+#. Translators: This refers to a content group that can be linked to a student
+#. cohort.
+#: cms/static/js/views/partition_group_item.js:24
+#: cms/static/js/views/partition_group_list.js:21
+msgid "content group"
+msgstr "مجموعة المحتوى"
+
+#: cms/static/js/views/partition_group_list.js:23
+msgid "Add your first content group"
+msgstr "أضف مجموعة المحتوى الأولى"
+
+#: cms/static/js/views/partition_group_list.js:25
+msgid "You have not created any content groups yet."
+msgstr "لم تنشئ أي مجموعات للمحتوى بعد."
+
+#: cms/static/js/views/previous_video_upload.js:73
+msgid "Are you sure you want to remove this video from the list?"
+msgstr "هل أنت واثقٌ من رغبتك في حذف هذا الفيديو من هذه القائمة؟"
+
+#: cms/static/js/views/previous_video_upload.js:74
+msgid ""
+"Removing a video from this list does not affect course content. Any content "
+"that uses a previously uploaded video ID continues to display in the course."
+msgstr "لا يؤثر حذف فيديو من هذه القائمة على محتوى المقرر. ويستمر عرض أي محتوى يستخدم معرف فيديو محملًا سابقًا في هذا المقرر."
+
+#: cms/static/js/views/settings/advanced.js:68
+msgid ""
+"Your changes will not take effect until you save your progress. Take care "
+"with key and value formatting, as validation is not implemented."
+msgstr "لن تصبح التغييرات التي أجريتها نافذة حتى تحفّظ خطوات التقدّم التي اتّخذتها. يُرجى مراعاة الدقة في تنسيق المفتاح والقيمة، حيث أنّ عملية التحقّق والمصادقة غير مطبّقة."
+
+#: cms/static/js/views/settings/advanced.js:117
+msgid "Your policy changes have been saved."
+msgstr "جرى حفظ التغييرات التي أدخلتها على السياسة."
+
+#: cms/static/js/views/settings/advanced.js:118
+msgid ""
+"No validation is performed on policy keys or value pairs. If you are having "
+"difficulties, check your formatting."
+msgstr "لم يجري تنفيذ عملية تحقّق من صحّة زوج القيم أو مفاتيح السياسة. في حال كنت تواجه أية مشكلات، يُرجى مراجعة التنسيق."
+
+#: cms/static/js/views/settings/grader.js:58
+msgid ""
+"For grading to work, you must change all {oldName} subsections to {newName}."
+msgstr "يجب أن تقوم بتغيير كل الأقسام الفرعية في {oldName} إلى {newName} كي يعمل نظام العلامات."
+
+#: cms/static/js/views/settings/main.js:59
+msgid "Course Credit Requirements"
+msgstr "متطلّبات مواد المساق"
+
+#: cms/static/js/views/settings/main.js:60
+msgid "The minimum grade for course credit is not set."
+msgstr "لم تُحدَّد الدرجة الدنيا للنجاح في المساق."
+
+#: cms/static/js/views/settings/main.js:145
+msgid "Course pacing cannot be changed once a course has started."
+msgstr "لا يمكن تغيير  تنظيم المساق بمجرّد ابتدائه."
+
+#: cms/static/js/views/settings/main.js:210
+msgid "{hours}:{minutes} (current UTC time)"
+msgstr "{hours}:{minutes} (توقيت غرينتش الحالي)"
+
+#: cms/static/js/views/settings/main.js:416
+msgid "Upload your course image."
+msgstr "تحميل صورتك الخاصة بالمساق."
+
+#: cms/static/js/views/settings/main.js:422
+msgid "Upload your banner image."
+msgstr "رفع صورة شعارك."
+
+#: cms/static/js/views/settings/main.js:428
+msgid "Upload your video thumbnail image."
+msgstr "ارفع صورة الفيديو المصغرة."
+
+#: cms/static/js/views/show_textbook.js:32
+msgid "Delete “<%= name %>”?"
+msgstr "هل تريد حذف “<%= name %>”؟"
+
+#: cms/static/js/views/show_textbook.js:35
+msgid ""
+"Deleting a textbook cannot be undone and once deleted any reference to it in"
+" your courseware's navigation will also be removed."
+msgstr "لا يمكن التراجع لاحقًا عن عملية حذف الكتاب> وحالما تحذفه، سيجري أيضًا حذف أيٍٍّ من مراجعه الواردة في صفحاتك لمنهاج المساق. "
+
+#: cms/static/js/views/tabs.js:159
+msgid "Delete Page Confirmation"
+msgstr "تأكيد حذف الصفحة"
+
+#: cms/static/js/views/tabs.js:160
+msgid ""
+"Are you sure you want to delete this page? This action cannot be undone."
+msgstr "هل أنت واثق من أنّك تريد حذف هذه الصفحة؟ لا يمكن التراجع عن هذه العملية لاحقًا."
+
+#: cms/static/js/views/uploads.js:24
+msgid "Upload"
+msgstr "تحميل"
+
+#: cms/static/js/views/uploads.js:115
+msgid "We're sorry, there was an error"
+msgstr "نأسف لحدوث خطأ. "
+
+#: cms/static/js/views/utils/create_course_utils.js:8
+msgid ""
+"The combined length of the organization, course number, and course run "
+"fields cannot be more than <%=limit%> characters."
+msgstr "لا يمكن أن يزيد مجموع الأحرف في حقول المؤسسة ورقم المساق وفترة طرح المساق عن <%=limit%> حرفًا."
+
+#: cms/static/js/views/utils/create_library_utils.js:8
+msgid ""
+"The combined length of the organization and library code fields cannot be "
+"more than <%=limit%> characters."
+msgstr "لا يمكن أن يزيد مجموع الأحرف في حقلي المؤسسة ورمز المكتبة عن <%=limit%> حرفًا."
+
+#: cms/static/js/views/utils/move_xblock_utils.js:31
+msgid "Success! \"{displayName}\" has been moved."
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:56
+msgid ""
+"Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
+"location."
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:74
+msgid "Undo move"
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:90
+msgid "Take me to the new location"
+msgstr ""
+
+#: cms/static/js/views/utils/xblock_utils.js:79
+msgid "Duplicating"
+msgstr "جاري إنشاء نسخة مطابقة "
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Undo moving"
+msgstr ""
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Moving"
+msgstr ""
+
+#: cms/static/js/views/utils/xblock_utils.js:147
+msgid "Deleting this {xblock_type} is permanent and cannot be undone."
+msgstr "إنّ حذف هذا الـ {xblock_type} دائم ولا يمكن التراجع عنه."
+
+#: cms/static/js/views/utils/xblock_utils.js:153
+msgid ""
+"Any content that has listed this content as a prerequisite will also have "
+"access limitations removed."
+msgstr "ستُحذف أي محدّدات للوصول لأي محتوى كان قد أردج هذا المحتوى كمتطلّب أساسي."
+
+#: cms/static/js/views/utils/xblock_utils.js:156
+msgid "Delete this {xblock_type} (and prerequisite)?"
+msgstr "هل تودّ حذف {xblock_type} هذه (بالإضافة إلى المتطلّب الأساسي)؟"
+
+#: cms/static/js/views/utils/xblock_utils.js:162
+#: cms/static/js/views/utils/xblock_utils.js:177
+msgid "Yes, delete this {xblock_type}"
+msgstr "نعم، احذف هذا الـ {xblock_type}"
+
+#: cms/static/js/views/utils/xblock_utils.js:171
+msgid "Delete this {xblock_type}?"
+msgstr "هل تريد حذف هذا الـ {xblock_type}؟"
+
+#: cms/static/js/views/utils/xblock_utils.js:263
+msgid "section"
+msgstr "قسم"
+
+#: cms/static/js/views/utils/xblock_utils.js:265
+msgid "subsection"
+msgstr "قسم فرعي"
+
+#: cms/static/js/views/utils/xblock_utils.js:267
+msgid "unit"
+msgstr "وحدة"
+
+#: cms/static/js/views/validation.js:22
+msgid "You've made some changes"
+msgstr "لقد أجريت بعض التغييرات."
+
+#: cms/static/js/views/validation.js:23
+msgid "Your changes will not take effect until you save your progress."
+msgstr "لن تصبح التغييرات التي أجريتها نافذة حتى تحفّظ خطوات التقدّم التي اتّخذتها. "
+
+#: cms/static/js/views/validation.js:24
+msgid "You've made some changes, but there are some errors"
+msgstr "هنالك عدد من الأخطاء بالرغم من إجرائك لبعض التغييرات."
+
+#: cms/static/js/views/validation.js:25
+msgid ""
+"Please address the errors on this page first, and then save your progress."
+msgstr "يُرجى تصحيح الأخطاء في هذه الصفحة أوّلًا، ثم حفّظ خطوات تقدّمك."
+
+#: cms/static/js/views/validation.js:117
+msgid "Save Changes"
+msgstr "حفّظ التغييرات"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:110
+msgid "Please select a file in .srt format."
+msgstr "يُرجى اختيار ملف بصيغة .srt."
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:188
+msgid "Error: Uploading failed."
+msgstr "خطأ: فشل التحميل."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:147
+msgid "Error: Import failed."
+msgstr "خطأ: فشل الاستيراد."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:161
+msgid "Error: Replacing failed."
+msgstr "خطأ: فشل الاستبدال."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:177
+#: cms/static/js/views/video/transcripts/message_manager.js:191
+msgid "Error: Choosing failed."
+msgstr "خطأ: فشل الاختيار."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:66
+msgid "Error: Connection with server failed."
+msgstr "خطأ: فشل الاتصال بالخادم."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:82
+msgid "No sources"
+msgstr "لا تتوفّر مصادر."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:369
+msgid "Link types should be unique."
+msgstr "يجب أن تكون أنواع الروابط فريدة."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:382
+msgid "Links should be unique."
+msgstr "يجب أن تكون الروابط فريدة."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:404
+msgid "Incorrect url format."
+msgstr "صيغة خاطئة لرابط url."
+
+#: cms/static/js/views/video/translations_editor.js:15
+msgid ""
+"Sorry, there was an error parsing the subtitles that you uploaded. Please "
+"check the format and try again."
+msgstr "عذرًا، حدث خطأ في عملية تحليل العناوين الفرعية التي حمّلتها. يُرجى التحقق من الصيغة، ثمّ إعادة المحاولة. "
+
+#: cms/static/js/views/video/translations_editor.js:155
+msgid "Upload translation"
+msgstr "تحميل الترجمة"
+
+#: cms/static/js/views/video_thumbnail.js:31
+msgid "Add Thumbnail"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:35
+msgid "Edit Thumbnail"
+msgstr ""
+
+#. Translators: This is a 2 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:52
+msgid "Image upload failed"
+msgstr ""
+
+#. Translators: This is a 3 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:64
+msgid ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+
+#. Translators: message will be like 1280x720 pixels
+#: cms/static/js/views/video_thumbnail.js:130
+msgid "{maxWidth}x{maxHeight} pixels"
+msgstr ""
+
+#. Translators: message will be like Thumbnail for Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:138
+msgid "Thumbnail for {videoName}"
+msgstr ""
+
+#. Translators: message will be like Add Thumbnail - Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:146
+msgid "Add Thumbnail - {videoName}"
+msgstr ""
+
+#. Translators: humanizeDuration will be like 10 minutes, an hour and 20
+#. minutes etc
+#: cms/static/js/views/video_thumbnail.js:172
+msgid "Video duration is {humanizeDuration}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minutes"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minute"
+msgstr ""
+
+#. Translators: message will be like 15 minutes, 1 minute
+#: cms/static/js/views/video_thumbnail.js:192
+msgid "{minutes} {unit}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "seconds"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr ""
+
+#. Translators: message will be like 20 seconds, 1 second
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr ""
+
+#. Translators: `and` will be used to combine both miuntes and seconds like
+#. `13 minutes and 45 seconds`
+#: cms/static/js/views/video_thumbnail.js:207
+msgid " and "
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:234
+msgid "Video image upload started"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:246
+msgid "Video image upload completed"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:321
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supportedFileFormats}."
+msgstr ""
+
+#. Translators: maxFileSizeInMB will be like 2 MB.
+#: cms/static/js/views/video_thumbnail.js:330
+msgid "The selected image must be smaller than {maxFileSizeInMB}."
+msgstr ""
+
+#. Translators: minFileSizeInKB will be like 2 KB.
+#: cms/static/js/views/video_thumbnail.js:338
+msgid "The selected image must be larger than {minFileSizeInKB}."
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:366
+msgid "Could not upload the video image file"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:368
+msgid "Image upload failed. "
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:30
+msgid "The file could not be uploaded."
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:128
+msgid "Hide transcripts ({transcriptCount})"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:147
+msgid "Show transcripts ({transcriptCount})"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:165
+msgid ""
+"This file type is not supported. Supported file type is "
+"{supportedFileFormat}."
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:226
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:266
+msgid "Are you sure you want to remove this transcript?"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:267
+msgid ""
+"If you remove this transcript, the transcript will not be available for any "
+"components that use this video."
+msgstr ""
+
+#: cms/static/js/views/xblock_editor.js:42
+msgid "Editor"
+msgstr "محرّر"
+
+#: cms/static/js/views/xblock_editor.js:43
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: cms/static/js/views/xblock_outline.js:90
+msgid "New {component_type}"
+msgstr "{component_type} جديد"
+
+#. Translators: This message will be added to the front of messages of type
+#. warning,
+#. e.g. "Warning: this component has not been configured yet".
+#: cms/static/js/views/xblock_validation.js:48
+msgid "Warning"
+msgstr "تحذير"
+
+#: cms/static/js/xblock_asides/structured_tags.js:23
+msgid "Updating Tags"
+msgstr "تحديث الشَارات"

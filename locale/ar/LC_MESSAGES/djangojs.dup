@@ -1,0 +1,90 @@
+Multiple translations found for single string.
+	String "Close"
+	Present in files [u'cms/static/js/views/active_video_upload.js', u'cms/static/js/views/modals/edit_xblock.js', u'lms/static/js/student_account/tos_modal.js', u'cms/templates/js/course-video-settings.underscore', u'common/static/common/templates/image-modal.underscore', u'common/static/common/templates/discussion/alert-popup.underscore', u'common/static/common/templates/discussion/forum-action-close.underscore', u'common/static/common/templates/discussion/search-alert.underscore', u'openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+إغلاق 
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إغلاق
+
+Multiple translations found for single string.
+	String "Search"
+	Present in files [u'common/static/js/vendor/ova/catch/js/catch.js', u'common/static/common/templates/components/search-field.underscore', u'lms/djangoapps/discussion/static/discussion/templates/search.underscore', u'lms/djangoapps/support/static/support/templates/certificates.underscore', u'lms/djangoapps/support/static/support/templates/enrollment.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+بحث
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+البحث
+
+Multiple translations found for single string.
+	String "The country that team members primarily identify with."
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/edit_team.js', u'lms/djangoapps/teams/static/teams/templates/team-profile.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+البلد الذي يعتمده أعضاء الفريق بشكل أساسي للتعريف بأنفسهم.
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+البلد الذي يعتمده أعضاء الفريق، بشكل أساسي، للتعريف بأنفسهم.
+
+Multiple translations found for single string.
+	String "All Topics"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/teams_tab.js', u'lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+كافّة المواضيع
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+كل المواضيع
+
+Multiple translations found for single string.
+	String "Click to change"
+	Present in files [u'lms/static/js/ccx/schedule.js', u'lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+أضغط للتغير
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+اضغط للتغير
+
+Multiple translations found for single string.
+	String "There was an error, try searching again."
+	Present in files [u'lms/static/js/discovery/views/search_form.js', u'openedx/features/course_search/static/course_search/templates/search_error.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+نأسف لحدوث خطأ، يُرجى إعادة البحث مجدّدًا.
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+نأسف لحدوث خطأ. يُرجى المحاولة مجدّدًا.
+
+Multiple translations found for single string.
+	String "Search Results"
+	Present in files [u'lms/static/js/edxnotes/views/tabs/search_results.js', u'openedx/features/course_search/static/course_search/templates/course_search_results.underscore', u'openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+بحث في النتائج
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+البحث في النتائج
+
+Multiple translations found for single string.
+	String "In Progress"
+	Present in files [u'lms/static/js/views/fields.js', u'lms/templates/learner_dashboard/program_card.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+قيد المعالجة
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+في تقدم
+
+Multiple translations found for single string.
+	String "Staff"
+	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/thread-list-item.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+طاقم المساق
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الطاقم
+
+Multiple translations found for single string.
+	String "Unit"
+	Present in files [u'cms/static/js/views/modals/edit_xblock.js', u'lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+وحدة
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الوحدة
+

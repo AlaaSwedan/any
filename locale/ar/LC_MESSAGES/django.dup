@@ -1,0 +1,270 @@
+Multiple translations found for single string.
+	String "Discussion"
+	Present in files [u'cms/djangoapps/contentstore/views/component.py', u'lms/djangoapps/courseware/tabs.py', u'lms/djangoapps/discussion/plugins.py', u'openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py', u'lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html', u'lms/templates/ux/reference/bootstrap/course-skeleton.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+المناقشة
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+نقاش
+
+Multiple translations found for single string.
+	String "Subsection"
+	Present in files [u'cms/djangoapps/contentstore/views/helpers.py', u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/templates/ccx/schedule.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+قسمٌ فرعيّ
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+القسم الفرعي
+
+Multiple translations found for single string.
+	String "Unit"
+	Present in files [u'cms/djangoapps/contentstore/views/helpers.py', u'lms/djangoapps/instructor/views/tools.py', u'lms/templates/ccx/schedule.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+وحدة
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+الوحدة
+
+Multiple translations found for single string.
+	String "Name"
+	Present in files [u'cms/djangoapps/contentstore/views/videos.py', u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/djangoapps/instructor/views/api.py', u'lms/templates/help_modal.html', u'lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html', u'lms/templates/instructor/instructor_dashboard_2/metrics.html', u'lms/templates/shoppingcart/billing_details.html', u'lms/templates/shoppingcart/receipt.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+الاسم
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+الاسم 
+
+Multiple translations found for single string.
+	String "Honor Code"
+	Present in files [u'common/djangoapps/course_modes/helpers.py', u'lms/djangoapps/branding/api.py', u'openedx/core/djangoapps/user_api/api.py', u'lms/templates/static_templates/honor.html', u'themes/stanford-style/lms/templates/footer.html', u'themes/stanford-style/lms/templates/static_templates/tos.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+ميثاق الشرف الأكاديمي
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+ميثاق الشرف
+
+Multiple translations found for single string.
+	String "Price"
+	Present in files [u'common/djangoapps/course_modes/models.py', u'lms/templates/courseware/course_about.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+السعر
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+السعر 
+
+Multiple translations found for single string.
+	String "Honor"
+	Present in files [u'common/djangoapps/course_modes/models.py', u'lms/templates/instructor/instructor_dashboard_2/course_info.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+ميثاق الشرف
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+منح
+
+Multiple translations found for single string.
+	String "Email or password is incorrect."
+	Present in files [u'common/djangoapps/student/views.py', u'lms/templates/provider_login.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+عنوان البريد الإلكتروني أو كلمة المرور خاطئين.
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+يوجد خطأ في عنوان البريد الإلكتروني أو في كلمة المرور.
+
+Multiple translations found for single string.
+	String "Checkboxes"
+	Present in files [u'common/lib/capa/capa/responsetypes.py', u'cms/templates/widgets/problem-edit.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+مربّعات تأشير
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+مربّعات الاختيار
+
+Multiple translations found for single string.
+	String "Dropdown"
+	Present in files [u'common/lib/capa/capa/responsetypes.py', u'cms/templates/widgets/problem-edit.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+قائمة منسدلة 
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+القائمة المنسدلة 
+
+Multiple translations found for single string.
+	String "Numerical Input"
+	Present in files [u'common/lib/capa/capa/responsetypes.py', u'cms/templates/widgets/problem-edit.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+قيم دخل عدديّة.
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+مُدخَل رقمي
+
+Multiple translations found for single string.
+	String "Text Input"
+	Present in files [u'common/lib/capa/capa/responsetypes.py', u'cms/templates/widgets/problem-edit.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+قيم دخَل نصّية
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+مُدخَل نصّي
+
+Multiple translations found for single string.
+	String "Show Answer"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'common/lib/xmodule/xmodule/modulestore/inheritance.py', u'lms/templates/problem.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+أظهر الإجابة
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+إظهار الإجابة
+
+Multiple translations found for single string.
+	String "Submit"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'cms/templates/index.html', u'lms/templates/help_modal.html', u'lms/templates/manage_user_standing.html', u'lms/templates/register-shib.html', u'lms/templates/dashboard/_reason_survey.html', u'lms/templates/peer_grading/peer_grading_problem.html', u'lms/templates/survey/survey.html', u'openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html', u'openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html', u'themes/stanford-style/lms/templates/register-shib.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+إرسال
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+تقديم
+
+Multiple translations found for single string.
+	String "Course Handouts"
+	Present in files [u'common/lib/xmodule/xmodule/course_module.py', u'lms/templates/courseware/info.html', u'openedx/features/course_experience/templates/course_experience/course-home-fragment.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+منشورات المساق
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+نشرات المساق
+
+Multiple translations found for single string.
+	String "None"
+	Present in files [u'common/lib/xmodule/xmodule/course_module.py', u'cms/templates/settings.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+غير مذكور
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+لا شيء
+
+Multiple translations found for single string.
+	String "Instructions"
+	Present in files [u'common/lib/xmodule/xmodule/word_cloud_module.py', u'lms/templates/annotatable.html', u'lms/templates/imageannotation.html', u'lms/templates/textannotation.html', u'lms/templates/videoannotation.html', u'lms/templates/peer_grading/peer_grading.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+تعليمات
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+التعليمات
+
+Multiple translations found for single string.
+	String "Blog"
+	Present in files [u'lms/djangoapps/branding/api.py', u'lms/templates/static_templates/blog.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+المدوّنة
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+المدونة
+
+Multiple translations found for single string.
+	String "Terms of Service & Honor Code"
+	Present in files [u'lms/djangoapps/branding/api.py', u'themes/edx.org/lms/templates/certificates/_accomplishment-footer.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+شروط الخدمة وميثاق الشرف الأكاديمي
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+شروط الخدمة وميثاق الشرف
+
+Multiple translations found for single string.
+	String "Percent"
+	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/templates/instructor/instructor_dashboard_2/metrics.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+النسبة المئوية
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+النسبة
+
+Multiple translations found for single string.
+	String "Invoice"
+	Present in files [u'lms/djangoapps/shoppingcart/pdf.py', u'lms/templates/shoppingcart/receipt.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+فاتورة
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+الفاتورة
+
+Multiple translations found for single string.
+	String "Currency"
+	Present in files [u'lms/djangoapps/shoppingcart/reports.py', u'lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+العملة
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+العملة 
+
+Multiple translations found for single string.
+	String "Create Account"
+	Present in files [u'lms/djangoapps/student_account/views.py', u'themes/stanford-style/lms/templates/static_templates/tos.html', u'themes/red-theme/cms/templates/register.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+إنشاء حساب 
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+إنشاء حساب
+
+Multiple translations found for single string.
+	String "Continue"
+	Present in files [u'lms/djangoapps/student_account/views.py', u'lms/templates/peer_grading/peer_grading_problem.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+استمرار
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+استمر 
+
+Multiple translations found for single string.
+	String "Manual Refund"
+	Present in files [u'lms/djangoapps/support/views/index.py', u'lms/templates/support/refund.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+استرداد المبلغ يدويًّا 
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+استرداد المبلغ يدويّاً
+
+Multiple translations found for single string.
+	String "Course ID"
+	Present in files [u'lms/djangoapps/support/views/refund.py', u'openedx/core/djangoapps/schedules/admin.py', u'cms/templates/maintenance/_force_publish_course.html', u'lms/templates/sysadmin_dashboard_gitlogs.html', u'lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html', u'lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+الرقم التعريفي للمساق 
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+رقم تعريف المساق 
+
+Multiple translations found for single string.
+	String "Error"
+	Present in files [u'lms/templates/oauth2_provider/authorize.html', u'lms/templates/sysadmin_dashboard_gitlogs.html', u'lms/templates/ccx/schedule.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+حدث خطأ
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+خطأ
+
+Multiple translations found for single string.
+	String "All"
+	Present in files [u'openedx/core/djangoapps/schedules/admin.py', u'themes/stanford-style/lms/templates/static_templates/tos.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+الكل
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+الجميع
+
+Multiple translations found for single string.
+	String "This is what you will use to login."
+	Present in files [u'openedx/core/djangoapps/user_api/api.py', u'../themes/test-theme/lms/templates/faq.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+هذا ما ستستخدمه لتسجيل الدخول.
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+سيستخدم هذا عند تسجيل الدخول.
+
+Multiple translations found for single string.
+	String "Force Publish Course"
+	Present in files [u'cms/djangoapps/maintenance/views.py', u'cms/templates/maintenance/_force_publish_course.html']
+Translations found were:
+	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
+تنفيذ نشر الدورة التدريبية 
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+تنفيذ النشر للدورة التدريبية
+
