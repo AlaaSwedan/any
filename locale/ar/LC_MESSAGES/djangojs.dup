@@ -1,11 +1,40 @@
 Multiple translations found for single string.
 	String "Close"
-	Present in files [u'cms/static/js/views/active_video_upload.js', u'cms/static/js/views/modals/edit_xblock.js', u'lms/static/js/student_account/tos_modal.js', u'cms/templates/js/course-video-settings.underscore', u'common/static/common/templates/image-modal.underscore', u'common/static/common/templates/discussion/alert-popup.underscore', u'common/static/common/templates/discussion/forum-action-close.underscore', u'common/static/common/templates/discussion/search-alert.underscore', u'openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore']
+	Present in files [u'cms/static/js/views/active_video_upload.js', u'cms/static/js/views/modals/edit_xblock.js', u'cms/static/js/views/video_transcripts.js', u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'lms/static/js/student_account/tos_modal.js', u'common/static/common/templates/image-modal.underscore', u'common/static/common/templates/discussion/alert-popup.underscore', u'common/static/common/templates/discussion/forum-action-close.underscore', u'common/static/common/templates/discussion/search-alert.underscore', u'lms/templates/student_profile/share_modal.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 إغلاق 
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 إغلاق
+
+Multiple translations found for single string.
+	String "Choose File"
+	Present in files [u'cms/static/js/views/assets.js', u'lms/static/js/Markdown.Editor.js', u'cms/templates/js/asset-upload-modal.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+اختر الملف
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+اختر واحدًا
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اختر الملف
+
+Multiple translations found for single string.
+	String "Preview"
+	Present in files [u'cms/templates/js/asset-library.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+السابق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+معاينة
+
+Multiple translations found for single string.
+	String "View Live"
+	Present in files [u'cms/templates/js/show-textbook.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+عرض
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+عرض النسخة الحالية المنشورة
 
 Multiple translations found for single string.
 	String "Search"
@@ -15,6 +44,28 @@ Translations found were:
 بحث
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 البحث
+
+Multiple translations found for single string.
+	String "Clear"
+	Present in files [u'common/static/js/vendor/ova/catch/js/catch.js', u'cms/templates/js/metadata-dict-entry.underscore', u'cms/templates/js/metadata-file-uploader-entry.underscore', u'cms/templates/js/metadata-list-entry.underscore', u'cms/templates/js/metadata-number-entry.underscore', u'cms/templates/js/metadata-option-entry.underscore', u'cms/templates/js/metadata-string-entry.underscore', u'cms/templates/js/video/metadata-translations-entry.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+حذف
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+امسح الحقول
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+حذف
+
+Multiple translations found for single string.
+	String "Create"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/edit_team.js', u'cms/templates/js/certificate-editor.underscore', u'cms/templates/js/content-group-editor.underscore', u'cms/templates/js/group-configuration-editor.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+إنشاء 
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أنشئ فريق.
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إنشاء 
 
 Multiple translations found for single string.
 	String "The country that team members primarily identify with."
@@ -62,15 +113,6 @@ Translations found were:
 البحث في النتائج
 
 Multiple translations found for single string.
-	String "In Progress"
-	Present in files [u'lms/static/js/views/fields.js', u'lms/templates/learner_dashboard/program_card.underscore']
-Translations found were:
-	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-قيد المعالجة
-#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
-في تقدم
-
-Multiple translations found for single string.
 	String "Staff"
 	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/thread-list-item.underscore']
 Translations found were:
@@ -80,11 +122,616 @@ Translations found were:
 الطاقم
 
 Multiple translations found for single string.
-	String "Unit"
-	Present in files [u'cms/static/js/views/modals/edit_xblock.js', u'lms/templates/ccx/schedule.underscore']
+	String "Upload New File"
+	Present in files [u'cms/static/js/views/assets.js', u'cms/templates/js/asset-upload-modal.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
-وحدة
+تحميل ملف جديد
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
-الوحدة
+ارفع ملف CSV
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تحميل ملف جديد
+
+Multiple translations found for single string.
+	String "Groups"
+	Present in files [u'cms/templates/js/group-configuration-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+كافّة المجموعات
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+الشُعب
+
+Multiple translations found for single string.
+	String "Course Outline"
+	Present in files [u'cms/templates/js/group-configuration-details.underscore', u'cms/templates/js/partition-group-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مفتاح المساق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+المخطّط الكلّي للمساق
+
+Multiple translations found for single string.
+	String "Read More"
+	Present in files [u'cms/templates/js/active-video-upload.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+المزيد
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+لقراءة المزيد
+
+Multiple translations found for single string.
+	String "details about the failure"
+	Present in files [u'cms/templates/js/active-video-upload.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أضف ملاحظات تخصّ هذا المتعلّم
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تفاصيل عن الفشل
+
+Multiple translations found for single string.
+	String "Add Component:"
+	Present in files [u'cms/templates/js/add-xblock-component-button.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إضافة شعبة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إضافة مكوِّن:
+
+Multiple translations found for single string.
+	String "Supported"
+	Present in files [u'cms/templates/js/add-xblock-component-support-legend.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مبلَّغ عنه
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مدعم
+
+Multiple translations found for single string.
+	String "Add New Component"
+	Present in files [u'cms/templates/js/add-xblock-component.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إضافة شعبة جديدة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إضافة مكوِّن جديد
+
+Multiple translations found for single string.
+	String "close"
+	Present in files [u'cms/templates/js/asset-upload-modal.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إغلاق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إغلاق 
+
+Multiple translations found for single string.
+	String "No description available"
+	Present in files [u'cms/templates/js/asset.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+ليس هناك من إيصال.
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+لا يتوفّر أي وصف.
+
+Multiple translations found for single string.
+	String "Certificate Details"
+	Present in files [u'cms/templates/js/certificate-details.underscore', u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أُنشِئَت الشهادة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تفاصيل الشهادة
+
+Multiple translations found for single string.
+	String "Course Title"
+	Present in files [u'cms/templates/js/certificate-details.underscore', u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مفتاح المساق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+عنوان المساق
+
+Multiple translations found for single string.
+	String "Course Number"
+	Present in files [u'cms/templates/js/certificate-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مفتاح المساق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+رقم المساق 
+
+Multiple translations found for single string.
+	String "Certificate Signatories"
+	Present in files [u'cms/templates/js/certificate-details.underscore', u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أُنشِئَت الشهادة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+الموقّعون على الشهادة
+
+Multiple translations found for single string.
+	String "Certificate Information"
+	Present in files [u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أُنشِئَت الشهادة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+معلومات الشهادة
+
+Multiple translations found for single string.
+	String "Certificate Name"
+	Present in files [u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أُنشِئَت الشهادة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اسم الشهادة
+
+Multiple translations found for single string.
+	String "Name of the certificate"
+	Present in files [u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إنشاء شهادة المستخدم
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اسم الشهادة
+
+Multiple translations found for single string.
+	String "Description of the certificate"
+	Present in files [u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تنزيل شهادة المستخدم
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+وصف الشهادة
+
+Multiple translations found for single string.
+	String "Course title"
+	Present in files [u'cms/templates/js/certificate-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تاريخ ابتداء المساق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+عنوان المساق
+
+Multiple translations found for single string.
+	String "Choose mode"
+	Present in files [u'cms/templates/js/certificate-web-preview.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+اختر واحدًا
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اختر الوضع
+
+Multiple translations found for single string.
+	String "Preview Certificate"
+	Present in files [u'cms/templates/js/certificate-web-preview.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إلغاء شهادة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+معاينة الشهادة
+
+Multiple translations found for single string.
+	String "Activate"
+	Present in files [u'cms/templates/js/certificate-web-preview.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+لم نعتبر تفعيل الحساب ضرورياً؟
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تفعيل
+
+Multiple translations found for single string.
+	String "Deactivate"
+	Present in files [u'cms/templates/js/certificate-web-preview.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+لم نعتبر تفعيل الحساب ضرورياً؟
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تعطيل
+
+Multiple translations found for single string.
+	String "Content Group Name"
+	Present in files [u'cms/templates/js/content-group-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+لا توجد مجموعة محتوى
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اسم مجموعة المحتوى:
+
+Multiple translations found for single string.
+	String "Content Group ID"
+	Present in files [u'cms/templates/js/content-group-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+لا توجد مجموعة محتوى
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+الرقم التعريفي لمجموعة المحتوى
+
+Multiple translations found for single string.
+	String "This is the name of the group"
+	Present in files [u'cms/templates/js/content-group-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+يُرجى إدخال اسم الشعبة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إنه اسم المجموعة:
+
+Multiple translations found for single string.
+	String "Subsection Visibility"
+	Present in files [u'cms/templates/js/content-visibility-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+قسمٌ فرعيّ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+رؤية القسم الفرعي
+
+Multiple translations found for single string.
+	String "Show entire subsection"
+	Present in files [u'cms/templates/js/content-visibility-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+قسمٌ فرعيّ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+عرض القسم الفرعي بالكامل
+
+Multiple translations found for single string.
+	String "Instructor Name"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أدوات الأستاذ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اسم المعلم
+
+Multiple translations found for single string.
+	String "Instructor Title"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أدوات الأستاذ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+لقب المعلم
+
+Multiple translations found for single string.
+	String "Organization"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore', u'cms/templates/js/signatory-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+شعار ال{organization}
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+المؤسّسة
+
+Multiple translations found for single string.
+	String "Organization Name"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+شعار ال{organization}
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اسم المؤسسة
+
+Multiple translations found for single string.
+	String "Instructor Biography"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أدوات الأستاذ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مسيرة المعلّم
+
+Multiple translations found for single string.
+	String "Photo"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+رقم الصورة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+صورة
+
+Multiple translations found for single string.
+	String "Instructor Photo"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أدوات الأستاذ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+صورة المعلّم
+
+Multiple translations found for single string.
+	String "Instructor Photo URL"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+أدوات الأستاذ
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+رابط صورة المعلّم
+
+Multiple translations found for single string.
+	String "Upload Photo"
+	Present in files [u'cms/templates/js/course-instructor-details.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+التقاط صورة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+رفع صورة
+
+Multiple translations found for single string.
+	String "Ungraded"
+	Present in files [u'cms/templates/js/course-outline.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الدرجة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+لم يجري تقييمه
+
+Multiple translations found for single string.
+	String "Configure"
+	Present in files [u'cms/templates/js/course-outline.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تأكيد
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+ضبط الإعدادات
+
+Multiple translations found for single string.
+	String "Release Status:"
+	Present in files [u'cms/templates/js/course-outline.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+حالة جرى التحقّق منها
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+وضع الإصدار:
+
+Multiple translations found for single string.
+	String "Scheduled:"
+	Present in files [u'cms/templates/js/course-outline.underscore', u'cms/templates/js/publish-xblock.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+غير مجدوَل
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مجدوَل:
+
+Multiple translations found for single string.
+	String "Graded as:"
+	Present in files [u'cms/templates/js/course-outline.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الدرجة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مقيَّم بدرجة:
+
+Multiple translations found for single string.
+	String "Course Handouts"
+	Present in files [u'cms/templates/js/course_info_handouts.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تاريخ انتهاء المساق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+نشرات المساق
+
+Multiple translations found for single string.
+	String "Post"
+	Present in files [u'cms/templates/js/course_info_update.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+نوع المنشور
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+نشر
+
+Multiple translations found for single string.
+	String "Due Date:"
+	Present in files [u'cms/templates/js/due-date-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تاريخ الاستحقاق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تاريخ الاستحقاق:
+
+Multiple translations found for single string.
+	String "Chapter Name"
+	Present in files [u'cms/templates/js/edit-chapter.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+اسم الشعبة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اسم الفصل
+
+Multiple translations found for single string.
+	String "Add a Chapter"
+	Present in files [u'cms/templates/js/edit-textbook.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إضافة شعبة جديدة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إضافة فصل
+
+Multiple translations found for single string.
+	String "Grading"
+	Present in files [u'cms/templates/js/grading-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+جاري التحميل
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+التقييم
+
+Multiple translations found for single string.
+	String "Grade as:"
+	Present in files [u'cms/templates/js/grading-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الدرجة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مقيّيم بدرجة: 
+
+Multiple translations found for single string.
+	String "Not Graded"
+	Present in files [u'cms/templates/js/grading-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الدرجة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+غير مقيَّم
+
+Multiple translations found for single string.
+	String "delete group"
+	Present in files [u'cms/templates/js/group-edit.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مجموعة محتوى محذوفة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+حذف المجموعة
+
+Multiple translations found for single string.
+	String "Clear Value"
+	Present in files [u'cms/templates/js/metadata-dict-entry.underscore', u'cms/templates/js/metadata-file-uploader-entry.underscore', u'cms/templates/js/metadata-list-entry.underscore', u'cms/templates/js/metadata-number-entry.underscore', u'cms/templates/js/metadata-option-entry.underscore', u'cms/templates/js/metadata-string-entry.underscore', u'cms/templates/js/video/metadata-translations-entry.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+امسح الحقول
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مسح القيمة
+
+Multiple translations found for single string.
+	String "Download"
+	Present in files [u'cms/templates/js/metadata-file-uploader-item.underscore', u'cms/templates/js/video/metadata-translations-item.underscore', u'cms/templates/js/video-transcripts.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تنزيل الرابط
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تنزيل
+
+Multiple translations found for single string.
+	String "Previous Uploads"
+	Present in files [u'cms/templates/js/previous-video-upload-list.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+السابق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تحميلات سابقة
+
+Multiple translations found for single string.
+	String "Visible to Staff Only"
+	Present in files [u'cms/templates/js/publish-xblock.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مرئي ل
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مرئيّة لطاقم المساق فقط
+
+Multiple translations found for single string.
+	String "Is Visible To:"
+	Present in files [u'cms/templates/js/publish-xblock.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مرئي ل
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مرئيٍّ من قِبَل:
+
+Multiple translations found for single string.
+	String "Will Be Visible To:"
+	Present in files [u'cms/templates/js/publish-xblock.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مرئي ل
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+سيصبح مرئيّ من: 
+
+Multiple translations found for single string.
+	String "Staff Only"
+	Present in files [u'cms/templates/js/publish-xblock.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الطاقم
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+طاقم المساق فقط
+
+Multiple translations found for single string.
+	String "Release Date:"
+	Present in files [u'cms/templates/js/release-date-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+يُرجى الملاحظة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تاريخ الإصدار:
+
+Multiple translations found for single string.
+	String "Name "
+	Present in files [u'cms/templates/js/signatory-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الاسم
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+الاسم 
+
+Multiple translations found for single string.
+	String "Title "
+	Present in files [u'cms/templates/js/signatory-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+العنوان
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+اللقب
+
+Multiple translations found for single string.
+	String "Organization "
+	Present in files [u'cms/templates/js/signatory-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+شعار ال{organization}
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+المؤسسة
+
+Multiple translations found for single string.
+	String "Current Role:"
+	Present in files [u'cms/templates/js/team-member.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+وضع التسجيل الحالي:
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+الدور الحالي:
+
+Multiple translations found for single string.
+	String "Remove {role} Access"
+	Present in files [u'cms/templates/js/team-member.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+حذف من اللائحة
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+إلغاء صلاحية الوصول الخاصة بـ {role}
+
+Multiple translations found for single string.
+	String "Delete the user, {username}"
+	Present in files [u'cms/templates/js/team-member.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+إنشاء شهادة المستخدم
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+حذف المستخدم،  {username} 
+
+Multiple translations found for single string.
+	String "Review Rules"
+	Present in files [u'cms/templates/js/timed-examination-preference-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+مراجعة صورك
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+قواعد المراجعة
+
+Multiple translations found for single string.
+	String "Verification Checkpoint"
+	Present in files [u'cms/templates/js/verification-access-editor.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+الموعد النهائي للتحقّق
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+نقطة اختبار تخص عملية التحقّق
+
+Multiple translations found for single string.
+	String "Error."
+	Present in files [u'cms/templates/js/video/transcripts/messages/transcripts-choose.underscore', u'cms/templates/js/video/transcripts/messages/transcripts-found.underscore', u'cms/templates/js/video/transcripts/messages/transcripts-import.underscore', u'cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore', u'cms/templates/js/video/transcripts/messages/transcripts-replace.underscore', u'cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore', u'cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore']
+Translations found were:
+	#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+خطأ:
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+خطأ.
 

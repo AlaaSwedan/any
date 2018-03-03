@@ -46,327 +46,344 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: cms/djangoapps/contentstore/course_group_config.py:24
+#: cms/djangoapps/contentstore/course_group_config.py
 msgid ""
 "The groups in this configuration can be mapped to cohorts in the Instructor "
 "Dashboard."
 msgstr ""
 
-#: cms/djangoapps/contentstore/course_group_config.py:27
+#: cms/djangoapps/contentstore/course_group_config.py
 msgid "Content Groups"
 msgstr ""
 
-#: cms/djangoapps/contentstore/course_group_config.py:62
-#: cms/djangoapps/contentstore/views/certificates.py:134
+#: cms/djangoapps/contentstore/course_group_config.py
+#: cms/djangoapps/contentstore/views/certificates.py
 msgid "invalid JSON"
 msgstr "JSON غير صحيح"
 
-#: cms/djangoapps/contentstore/course_group_config.py:71
+#: cms/djangoapps/contentstore/course_group_config.py
 msgid "must have name of the configuration"
 msgstr "يجب أن يكون لديك اسم الإعدادات"
 
-#: cms/djangoapps/contentstore/course_group_config.py:73
+#: cms/djangoapps/contentstore/course_group_config.py
 msgid "must have at least one group"
 msgstr "يجب أن تتوفّر مجموعة واحدة على الأقل."
 
-#: cms/djangoapps/contentstore/course_info_model.py:71
-#: cms/djangoapps/contentstore/course_info_model.py:146
+#: cms/djangoapps/contentstore/course_info_model.py
+#: cms/djangoapps/contentstore/course_info_model.py
 msgid "Invalid course update id."
 msgstr "الرمز التعريفي الخاص بتحديث المساق غير صحيح."
 
-#: cms/djangoapps/contentstore/course_info_model.py:111
+#: cms/djangoapps/contentstore/course_info_model.py
 msgid "Course update not found."
 msgstr "تحديث المساق غير موجود."
 
-#: cms/djangoapps/contentstore/courseware_index.py:249
+#: cms/djangoapps/contentstore/courseware_index.py
 msgid "Could not index item: {}"
 msgstr "نأسف لتعذّر فهرسة المادة: {}"
 
-#: cms/djangoapps/contentstore/courseware_index.py:271
+#: cms/djangoapps/contentstore/courseware_index.py
 msgid "General indexing error occurred"
 msgstr "نأسف لحدوث خطأ في الفهرسة العامة"
 
-#: cms/djangoapps/contentstore/courseware_index.py:355
+#: cms/djangoapps/contentstore/courseware_index.py
 msgid "(Unnamed)"
 msgstr "(غير مسمّى)"
 
-#: cms/djangoapps/contentstore/git_export_utils.py:37
+#: cms/djangoapps/contentstore/git_export_utils.py
 #, python-brace-format
 msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
 "configure a different path with GIT_REPO_EXPORT_DIR"
-msgstr "دليل GIT_REPO_EXPORT_DIR غير محدّد، أو المسار {0} غير موجود، لذلك يُرجى إنشاؤه، أو ضبط إعدادات مسار آخر مع دليل GIT_REPO_EXPORT_DIR."
+msgstr ""
+"دليل GIT_REPO_EXPORT_DIR غير محدّد، أو المسار {0} غير موجود، لذلك يُرجى "
+"إنشاؤه، أو ضبط إعدادات مسار آخر مع دليل GIT_REPO_EXPORT_DIR."
 
-#: cms/djangoapps/contentstore/git_export_utils.py:40
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "Non writable git url provided. Expecting something like: "
 "git@github.com:mitocw/edx4edx_lite.git"
-msgstr "مستودع نظام إدارة المراجعات Git الذي يشير إليه الرابط غير صالح للكتابة. من المتوقّع أن يشبه التالي: git@github.com:mitocw/edx4edx_lite.git"
+msgstr ""
+"مستودع نظام إدارة المراجعات Git الذي يشير إليه الرابط غير صالح للكتابة. من "
+"المتوقّع أن يشبه التالي: git@github.com:mitocw/edx4edx_lite.git"
 
-#: cms/djangoapps/contentstore/git_export_utils.py:42
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "If using http urls, you must provide the username and password in the url. "
 "Similar to https://user:pass@github.com/user/course."
-msgstr "في حال استخدام الروابط وفق بروتوكول http، فإنّه يجب ذكر اسم المستخدم وكلمة المرور في الرابط، كما يلي https://user:pass@github.com/user/course."
+msgstr ""
+"في حال استخدام الروابط وفق بروتوكول http، فإنّه يجب ذكر اسم المستخدم وكلمة "
+"المرور في الرابط، كما يلي https://user:pass@github.com/user/course."
 
-#: cms/djangoapps/contentstore/git_export_utils.py:45
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to determine branch, repo in detached HEAD mode"
 msgstr "تعذّر تحديد الفرع؛ المستودع في وضعية ’رأس مفصول‘ "
 
-#: cms/djangoapps/contentstore/git_export_utils.py:46
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to update or clone git repository."
 msgstr "تعذّر تحديث أو استنساخ مستودع git."
 
-#: cms/djangoapps/contentstore/git_export_utils.py:47
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to export course to xml."
 msgstr "تعذّر تصدير المساق إلى ملف بصيغة xml."
 
-#: cms/djangoapps/contentstore/git_export_utils.py:48
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to configure git username and password"
 msgstr "تعذّر ضبط إعدادات اسم المستخدم وكلمة المرور لـ git"
 
-#: cms/djangoapps/contentstore/git_export_utils.py:49
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "Unable to commit changes. This is usually because there are no changes to be"
 " committed"
-msgstr "تعذّر إلزام التغييرات. ويُعزى هذا عادةً إلى عدم وجود تغييرات واجب إلزامها."
+msgstr ""
+"تعذّر إلزام التغييرات. ويُعزى هذا عادةً إلى عدم وجود تغييرات واجب إلزامها."
 
-#: cms/djangoapps/contentstore/git_export_utils.py:51
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
 "Unable to push changes.  This is usually because the remote repository "
 "cannot be contacted"
-msgstr "تعذّر دفع التغييرات نحو المستودع. ويحدث هذا عادةً بسبب عدم إمكانية الاتصال بالمستودع البعيد."
+msgstr ""
+"تعذّر دفع التغييرات نحو المستودع. ويحدث هذا عادةً بسبب عدم إمكانية الاتصال "
+"بالمستودع البعيد."
 
-#: cms/djangoapps/contentstore/git_export_utils.py:53
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Bad course location provided"
 msgstr "موقع المساق الذي تم تقديمه غير صحيح"
 
-#: cms/djangoapps/contentstore/git_export_utils.py:54
+#: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Missing branch on fresh clone"
 msgstr "هناك فرع ناقص على النسخة الجديدة"
 
-#: cms/djangoapps/contentstore/management/commands/git_export.py:34
+#: cms/djangoapps/contentstore/management/commands/git_export.py
 msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
-msgstr "خذ المساق المحدّد وحاول أن تصدّره إلى مستودع git\n. يجب أن يكون دليل المساق هو أصلًا مستودع git. الاستخدام: git_export <course_loc> <git_url>"
+msgstr ""
+"خذ المساق المحدّد وحاول أن تصدّره إلى مستودع git\n"
+". يجب أن يكون دليل المساق هو أصلًا مستودع git. الاستخدام: git_export <course_loc> <git_url>"
 
-#: cms/djangoapps/contentstore/tasks.py:241
-#: cms/djangoapps/contentstore/tasks.py:372
+#: cms/djangoapps/contentstore/tasks.py cms/djangoapps/contentstore/tasks.py
 #, python-brace-format
 msgid "Unknown User ID: {0}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/tasks.py:245
-#: cms/djangoapps/contentstore/tasks.py:376
+#: cms/djangoapps/contentstore/tasks.py cms/djangoapps/contentstore/tasks.py
 msgid "Permission denied"
 msgstr ""
 
-#: cms/djangoapps/contentstore/tasks.py:400
-#: cms/djangoapps/contentstore/views/import_export.py:132
+#: cms/djangoapps/contentstore/tasks.py
+#: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
 msgstr "ندعم تحميل ملفّات بصيغة .tar.gz فقط."
 
-#: cms/djangoapps/contentstore/tasks.py:413
+#: cms/djangoapps/contentstore/tasks.py
 msgid "Tar file not found"
 msgstr ""
 
-#: cms/djangoapps/contentstore/tasks.py:459
+#: cms/djangoapps/contentstore/tasks.py
 msgid "Unsafe tar file. Aborting import."
 msgstr ""
 
-#: cms/djangoapps/contentstore/tasks.py:492
+#: cms/djangoapps/contentstore/tasks.py
 #, python-brace-format
 msgid "Could not find the {0} file in the package."
 msgstr "نأسف لتعذّر إيجاد الملف {0} في الحزمة."
 
-#: cms/djangoapps/contentstore/utils.py:420
+#: cms/djangoapps/contentstore/utils.py
 msgid "Deleted Group"
 msgstr ""
 
 #. Translators: This is building up a list of groups. It is marked for
 #. translation because of the
 #. comma, which is used as a separator between each group.
-#: cms/djangoapps/contentstore/utils.py:480
+#: cms/djangoapps/contentstore/utils.py
 #, python-brace-format
 msgid "{previous_groups}, {current_group}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/assets.py:419
+#: cms/djangoapps/contentstore/views/assets.py
 msgid "Upload completed"
 msgstr "استُكمل التحميل "
 
-#: cms/djangoapps/contentstore/views/assets.py:459
+#: cms/djangoapps/contentstore/views/assets.py
 #, python-brace-format
 msgid ""
 "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/certificates.py:157
+#: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
 msgstr "يجب أن تملك اسم الشهادة"
 
-#: cms/djangoapps/contentstore/views/certificates.py:224
+#: cms/djangoapps/contentstore/views/certificates.py
 #, python-brace-format
 msgid "Certificate dict {0} missing value key '{1}'"
 msgstr "القاموس {0} للشهادة ينقصه مفتاح القيمة '{1}'"
 
-#: cms/djangoapps/contentstore/views/certificates.py:329
-#: cms/djangoapps/contentstore/views/certificates.py:367
+#: cms/djangoapps/contentstore/views/certificates.py
+#: cms/djangoapps/contentstore/views/certificates.py
 #, python-brace-format
 msgid "PermissionDenied: Failed in authenticating {user}"
 msgstr "رُفِض التصريح: تعذّر التحقّق من هوية المستخدم {user}"
 
-#: cms/djangoapps/contentstore/views/component.py:236
+#: cms/djangoapps/contentstore/views/component.py
 #, python-brace-format
 msgid "{platform_name} Support Levels:"
 msgstr "مستويات دعم {platform_name}:"
 
-#: cms/djangoapps/contentstore/views/component.py:241
+#: cms/djangoapps/contentstore/views/component.py
 msgid "HTML"
 msgstr "HTML "
 
-#: cms/djangoapps/contentstore/views/component.py:243
+#: cms/djangoapps/contentstore/views/component.py
 msgid "Video"
 msgstr "فيديو"
 
-#: cms/djangoapps/contentstore/views/component.py:271
+#: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
 msgstr "صفحة فارغة"
 
-#: cms/djangoapps/contentstore/views/course.py:325
+#: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
 msgstr "جرى إعادة فهرسة المساق بنجاح."
 
-#: cms/djangoapps/contentstore/views/course.py:621
+#: cms/djangoapps/contentstore/views/course.py
 msgid "Unscheduled"
 msgstr "غير مجدوَل "
 
-#: cms/djangoapps/contentstore/views/course.py:783
+#: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
-msgstr "لا يُسمح باستخدام الأحرف الخاصة ضمن اسم المؤسسة ورقم المساق ورقم تشغيله."
+msgstr ""
+"لا يُسمح باستخدام الأحرف الخاصة ضمن اسم المؤسسة ورقم المساق ورقم تشغيله."
 
-#: cms/djangoapps/contentstore/views/course.py:819
+#: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
-msgstr "يوجد من قبل مساق يحمل اسم المؤسّسة ورقم المساق نفسهما. يُرجى تغيير إمّا المؤسّسة أو رقم المساق ليكون فريدًا.  "
+msgstr ""
+"يوجد من قبل مساق يحمل اسم المؤسّسة ورقم المساق نفسهما. يُرجى تغيير إمّا "
+"المؤسّسة أو رقم المساق ليكون فريدًا.  "
 
-#: cms/djangoapps/contentstore/views/course.py:824
-#: cms/djangoapps/contentstore/views/course.py:827
+#: cms/djangoapps/contentstore/views/course.py
+#: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "Please change either the organization or course number so that it is unique."
 msgstr "يُرجى تغيير إمّا اسم المؤسسة أو رقم المساق ليكون فريدًا."
 
-#: cms/djangoapps/contentstore/views/course.py:832
+#: cms/djangoapps/contentstore/views/course.py
 #, python-brace-format
 msgid ""
 "Unable to create course '{name}'.\n"
 "\n"
 "{err}"
-msgstr "تعذّر إنشاء المساق ’{name}‘.\n\n{err}"
+msgstr ""
+"تعذّر إنشاء المساق ’{name}‘.\n"
+"\n"
+"{err}"
 
-#: cms/djangoapps/contentstore/views/course.py:845
+#: cms/djangoapps/contentstore/views/course.py
 msgid ""
 "You must link this course to an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add"
 " it to the system"
-msgstr "يجب ربط هذا المساق بمؤسّسة لتتمكّن من المتابعة. إن المؤسّسة التي اخترتها غير موجودة ضمن النظام وهو ما سيتطلّب منك إضافتها إلى النظام."
+msgstr ""
+"يجب ربط هذا المساق بمؤسّسة لتتمكّن من المتابعة. إن المؤسّسة التي اخترتها غير"
+" موجودة ضمن النظام وهو ما سيتطلّب منك إضافتها إلى النظام."
 
-#: cms/djangoapps/contentstore/views/course.py:1116
+#: cms/djangoapps/contentstore/views/course.py
 msgid "Invalid prerequisite course key"
 msgstr "رقم المساق الأساسي غير صالح"
 
-#: cms/djangoapps/contentstore/views/course.py:1303
+#: cms/djangoapps/contentstore/views/course.py
 msgid "An error occurred while trying to save your tabs"
 msgstr "نأسف لحدوث خطأ أثناء محاولة حفظ تبويباتك."
 
-#: cms/djangoapps/contentstore/views/course.py:1304
+#: cms/djangoapps/contentstore/views/course.py
 msgid "Tabs Exception"
 msgstr "استثناء التبويبات"
 
-#: cms/djangoapps/contentstore/views/course.py:1528
+#: cms/djangoapps/contentstore/views/course.py
 msgid "This group configuration is in use and cannot be deleted."
 msgstr "إنّ إعدادات هذه المجموعة قيد الاستخدام ولا يمكن حذفها."
 
-#: cms/djangoapps/contentstore/views/course.py:1542
+#: cms/djangoapps/contentstore/views/course.py
 msgid "This content group is in use and cannot be deleted."
 msgstr "إنّ مجموعة المحتوى هذه قيد الاستخدام ولا يمكن حذفها."
 
-#: cms/djangoapps/contentstore/views/entrance_exam.py:158
+#: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Entrance Exam - Subsection"
 msgstr "امتحان الدخول - قسم فرعي"
 
-#: cms/djangoapps/contentstore/views/entrance_exam.py:252
+#: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Completed Course Entrance Exam"
 msgstr "استُكمِل امتحان دخول المساق"
 
-#: cms/djangoapps/contentstore/views/export_git.py:46
+#: cms/djangoapps/contentstore/views/export_git.py
 msgid "Course successfully exported to git repository"
 msgstr "جرى بنجاح تصدير المساق إلى مستودع git"
 
-#: cms/djangoapps/contentstore/views/helpers.py:137
+#: cms/djangoapps/contentstore/views/helpers.py
 msgid "Vertical"
 msgstr "وحدة عمودية من المنهاج"
 
-#: cms/djangoapps/contentstore/views/import_export.py:170
+#: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
 msgstr "نأسف لفشل تحميل الملف. يُرجى المحاولة مجدّدًا."
 
-#: cms/djangoapps/contentstore/views/item.py:576
+#: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data"
 msgstr "بيانات غير صالحة"
 
-#: cms/djangoapps/contentstore/views/item.py:578
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "Invalid data ({details})"
 msgstr "بيانات غير صالحة ({details}) "
 
-#: cms/djangoapps/contentstore/views/item.py:753
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "You can not move {source_type} into {target_parent_type}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:758
+#: cms/djangoapps/contentstore/views/item.py
 msgid "Item is already present in target location."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:760
+#: cms/djangoapps/contentstore/views/item.py
 msgid "You can not move an item into itself."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:762
+#: cms/djangoapps/contentstore/views/item.py
 msgid "You can not move an item into it's child."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:764
+#: cms/djangoapps/contentstore/views/item.py
 msgid "You can not move an item directly into content experiment."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:766
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "{source_usage_key} not found in {parent_usage_key}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:774
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid ""
 "You can not move {source_usage_key} at an invalid index ({target_index})."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:779
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "You must provide target_index ({target_index}) as an integer."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/item.py:838
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "Duplicate of {0}"
 msgstr "نسخة مطابقة لـ {0}"
 
-#: cms/djangoapps/contentstore/views/item.py:840
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "Duplicate of '{0}'"
 msgstr "نسخة مطابقة لـ ’{0}‘"
@@ -374,213 +391,220 @@ msgstr "نسخة مطابقة لـ ’{0}‘"
 #. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
 #. in many languages. This is used to avoid Transifex's misinterpreting of
 #. '% o'. The percent sign is also translatable as a standalone string.
-#: cms/djangoapps/contentstore/views/item.py:1144
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
-msgstr "يجب أن يحصل الطلّاب على درجة {score}{pct_sign} أو ما فوق ليتمكّنوا من الوصول إلى مواد المساق."
+msgstr ""
+"يجب أن يحصل الطلّاب على درجة {score}{pct_sign} أو ما فوق ليتمكّنوا من الوصول"
+" إلى مواد المساق."
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
-#: cms/djangoapps/contentstore/views/item.py:1148
+#: cms/djangoapps/contentstore/views/item.py
 msgid "%"
 msgstr "%"
 
-#: cms/djangoapps/contentstore/views/item.py:1466
+#: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "{section_or_subsection} \"{display_name}\""
 msgstr "{section_or_subsection} \"{display_name}\""
 
-#: cms/djangoapps/contentstore/views/library.py:167
+#: cms/djangoapps/contentstore/views/library.py
 #, python-brace-format
 msgid "Unable to create library - missing required field '{field}'"
 msgstr "نأسف لتعذّر إنشاء المكتبة - الحقل المطلوب غير موجود '{field}'"
 
-#: cms/djangoapps/contentstore/views/library.py:172
+#: cms/djangoapps/contentstore/views/library.py
 #, python-brace-format
 msgid ""
 "Unable to create library '{name}'.\n"
 "\n"
 "{err}"
-msgstr "نأسف لتعذّر إنشاء المكتبة '{name}'.\n\n{err}"
+msgstr ""
+"نأسف لتعذّر إنشاء المكتبة '{name}'.\n"
+"\n"
+"{err}"
 
-#: cms/djangoapps/contentstore/views/library.py:178
+#: cms/djangoapps/contentstore/views/library.py
 msgid ""
 "There is already a library defined with the same organization and library "
 "code. Please change your library code so that it is unique within your "
 "organization."
-msgstr "هناك مسبقًا مكتبة تحمل اسم المؤسّسة نفسها والرمز نفسه. لذا يُرجى تغيير رمز مكتبتك لجعلها فريدة من نوعها ضمن مؤسّستك."
+msgstr ""
+"هناك مسبقًا مكتبة تحمل اسم المؤسّسة نفسها والرمز نفسه. لذا يُرجى تغيير رمز "
+"مكتبتك لجعلها فريدة من نوعها ضمن مؤسّستك."
 
-#: cms/djangoapps/contentstore/views/preview.py:284
+#: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/transcript_settings.py:124
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 msgid "The information you entered is incorrect."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/transcript_settings.py:153
-#: cms/djangoapps/contentstore/views/transcript_settings.py:193
+#: cms/djangoapps/contentstore/views/transcript_settings.py
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 #, python-brace-format
 msgid "The following parameters are required: {missing}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/transcript_settings.py:198
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/transcript_settings.py:202
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 msgid "A transcript file is required."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/transcript_settings.py:259
+#: cms/djangoapps/contentstore/views/transcript_settings.py
 msgid ""
 "There is a problem with this transcript file. Try to upload a different "
 "file."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/transcripts_ajax.py:471
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Incoming video data is empty."
 msgstr "بيانات الفيديو الوارد فارغة."
 
-#: cms/djangoapps/contentstore/views/transcripts_ajax.py:476
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Can't find item by locator."
 msgstr "تعذّر إيجاد العنصر باستخدام مُحدّد الموقع."
 
-#: cms/djangoapps/contentstore/views/transcripts_ajax.py:479
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Transcripts are supported only for \"video\" modules."
 msgstr "يتوفّر الدّعم للنصوص فقط في حالة الوحدات الدراسية المؤلّفة من \"فيديو\"."
 
-#: cms/djangoapps/contentstore/views/user.py:104
+#: cms/djangoapps/contentstore/views/user.py
 msgid "Insufficient permissions"
 msgstr "صلاحيات غير كافية"
 
-#: cms/djangoapps/contentstore/views/user.py:116
+#: cms/djangoapps/contentstore/views/user.py
 #, python-brace-format
 msgid "Could not find user by email address '{email}'."
 msgstr "تعذّر إيجاد المستخدم من خلال عنوان البريد الإلكتروني ’{email}‘."
 
-#: cms/djangoapps/contentstore/views/user.py:155
+#: cms/djangoapps/contentstore/views/user.py
 msgid "No `role` specified."
 msgstr "ليس هناك من ’دور‘ محدَّد "
 
-#: cms/djangoapps/contentstore/views/user.py:160
+#: cms/djangoapps/contentstore/views/user.py
 #, python-brace-format
 msgid "User {email} has registered but has not yet activated his/her account."
 msgstr "قام المستخدم {email} بالتسجيل ولكنّه لم يفعّل حسابه بعد."
 
-#: cms/djangoapps/contentstore/views/user.py:181
+#: cms/djangoapps/contentstore/views/user.py
 msgid "Invalid `role` specified."
 msgstr "الدور المحدَّد غير صالح"
 
-#: cms/djangoapps/contentstore/views/user.py:185
+#: cms/djangoapps/contentstore/views/user.py
 msgid "You may not remove the last Admin. Add another Admin first."
 msgstr "لا يُسمح لك بإزالة المشرِف الأخير. يُرجى إضافة مشرِف آخر أوّلًا."
 
 #. Translators: This is the status of an active video upload
-#: cms/djangoapps/contentstore/views/videos.py:94
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Uploading"
 msgstr "جاري التحميل"
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
-#: cms/djangoapps/contentstore/views/videos.py:96
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "In Progress"
 msgstr "قيد المعالجة"
 
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
-#: cms/djangoapps/contentstore/views/videos.py:98
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Ready"
 msgstr "مستعدّ"
 
 #. Translators: This is the status for a video that is uploaded completely
-#: cms/djangoapps/contentstore/views/videos.py:100
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Uploaded"
 msgstr ""
 
 #. Translators: This is the status for a video that the servers have failed to
 #. process
-#: cms/djangoapps/contentstore/views/videos.py:102
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Failed"
 msgstr "خلل أثناء المعالجة"
 
 #. Translators: This is the status for a video that is cancelled during upload
 #. by user
-#: cms/djangoapps/contentstore/views/videos.py:104
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Cancelled"
 msgstr "تم الإلغاء"
 
 #. Translators: This is the status for a video which has failed
 #. due to being flagged as a duplicate by an external or internal CMS
-#: cms/djangoapps/contentstore/views/videos.py:107
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Failed Duplicate"
 msgstr "فشل التكرار"
 
 #. Translators: This is the status for a video which has duplicate token for
 #. youtube
-#: cms/djangoapps/contentstore/views/videos.py:109
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "YouTube Duplicate"
 msgstr ""
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
-#: cms/djangoapps/contentstore/views/videos.py:112
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Invalid Token"
 msgstr "غير مُصرَّح له"
 
 #. Translators: This is the status for a video that was included in a course
 #. import
-#: cms/djangoapps/contentstore/views/videos.py:114
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Imported"
 msgstr "جرى الاستيراد"
 
 #. Translators: This is the status for a video that is in an unknown state
-#: cms/djangoapps/contentstore/views/videos.py:116
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Unknown"
 msgstr "غير معروف "
 
 #. Translators: This is the status for a video that is having its
 #. transcription in progress on servers
-#: cms/djangoapps/contentstore/views/videos.py:118
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Transcription in Progress"
 msgstr ""
 
 #. Translators: This is the status for a video whose transcription is complete
-#: cms/djangoapps/contentstore/views/videos.py:120
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Transcript Ready"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:201
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "The image must have name, content type, and size information."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:203
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid ""
 "This image file type is not supported. Supported file types are "
 "{supported_file_formats}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:207
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid "This image file must be smaller than {image_max_size}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:211
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid "This image file must be larger than {image_min_size}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:218
-#: cms/djangoapps/contentstore/views/videos.py:220
+#: cms/djangoapps/contentstore/views/videos.py
+#: cms/djangoapps/contentstore/views/videos.py
 msgid ""
 "There is a problem with this image file. Try to upload a different file."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:223
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid ""
 "Recommended image resolution is "
@@ -588,129 +612,134 @@ msgid ""
 "{image_file_min_width}x{image_file_min_height}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:231
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid ""
 "This image file must have an aspect ratio of "
 "{video_image_aspect_ratio_text}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:238
+#: cms/djangoapps/contentstore/views/videos.py
 msgid ""
 "The image file name can only contain letters, numbers, hyphens (-), and "
 "underscores (_)."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:252
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "An image file is required."
 msgstr ""
 
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
 #. (e.g. desktop, mobile high quality, mobile low quality)
-#: cms/djangoapps/contentstore/views/videos.py:412
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid "{profile_name} URL"
 msgstr "الرابط الخاص بالملف الشخصي {profile_name}"
 
-#: cms/djangoapps/contentstore/views/videos.py:418
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Duration"
 msgstr "المدّة"
 
-#: cms/djangoapps/contentstore/views/videos.py:419
+#: cms/djangoapps/contentstore/views/videos.py
 msgid "Date Added"
 msgstr "تاريخ الإضافة "
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
-#: cms/djangoapps/contentstore/views/videos.py:457
+#: cms/djangoapps/contentstore/views/videos.py
 #, python-brace-format
 msgid "{course}_video_urls"
 msgstr "{course}_video_urls"
 
-#: cms/djangoapps/course_creators/models.py:32
+#: cms/djangoapps/course_creators/models.py
 msgid "unrequested"
 msgstr "غير مطلوب"
 
-#: cms/djangoapps/course_creators/models.py:33
+#: cms/djangoapps/course_creators/models.py
 msgid "pending"
 msgstr "قيد الانتظار"
 
-#: cms/djangoapps/course_creators/models.py:34
+#: cms/djangoapps/course_creators/models.py
 msgid "granted"
 msgstr "ممنوح"
 
-#: cms/djangoapps/course_creators/models.py:35
+#: cms/djangoapps/course_creators/models.py
 msgid "denied"
 msgstr "مرفوض"
 
-#: cms/djangoapps/course_creators/models.py:38
+#: cms/djangoapps/course_creators/models.py
 msgid "Studio user"
 msgstr "مستخدم نظام استوديو Studio"
 
-#: cms/djangoapps/course_creators/models.py:40
+#: cms/djangoapps/course_creators/models.py
 msgid "The date when state was last updated"
 msgstr "تاريخ آخر تحديث للحالة"
 
-#: cms/djangoapps/course_creators/models.py:42
+#: cms/djangoapps/course_creators/models.py
 msgid "Current course creator state"
 msgstr "الحالة الحالية لمُنشئ المساق "
 
-#: cms/djangoapps/course_creators/models.py:43
+#: cms/djangoapps/course_creators/models.py
 msgid ""
 "Optional notes about this user (for example, why course creation access was "
 "denied)"
-msgstr "ملاحظات اختيارية حول هذا المستخدم (لماذا مثلًا رُفض طلب الدخول لإنشاء مساق)"
+msgstr ""
+"ملاحظات اختيارية حول هذا المستخدم (لماذا مثلًا رُفض طلب الدخول لإنشاء مساق)"
 
-#: cms/djangoapps/maintenance/views.py:28
+#: cms/djangoapps/maintenance/views.py
 msgid "Force Publish Course"
 msgstr "تنفيذ نشر الدورة التدريبية "
 
-#: cms/djangoapps/maintenance/views.py:31
+#: cms/djangoapps/maintenance/views.py
 msgid ""
 "Sometimes the draft and published branches of a course can get out of sync. "
 "Force publish course command resets the published branch of a course to "
 "point to the draft branch, effectively force publishing the course. This "
 "view dry runs the force publish command"
-msgstr "في بعض الأحيان، تكون الفروع المنشورة ومسودات الدورة التدريبية غير متزامنة. يقوم أمر التنفيذ بنشر الدورة التدريبية بإعادة تعيين الفرع المنشور للدورة التدريبية للإشارة إلى فرع المسودة، مما ينفذ النشر للدورة بشكل فعال. يقدم هذا العرض اختبارًا تجريبيًا لأمر تنفيذ النشر"
+msgstr ""
+"في بعض الأحيان، تكون الفروع المنشورة ومسودات الدورة التدريبية غير متزامنة. "
+"يقوم أمر التنفيذ بنشر الدورة التدريبية بإعادة تعيين الفرع المنشور للدورة "
+"التدريبية للإشارة إلى فرع المسودة، مما ينفذ النشر للدورة بشكل فعال. يقدم هذا"
+" العرض اختبارًا تجريبيًا لأمر تنفيذ النشر"
 
-#: cms/djangoapps/maintenance/views.py:40
+#: cms/djangoapps/maintenance/views.py
 msgid "Please provide course id."
 msgstr "يرجى تقديم معرف للدورة التدريبية."
 
-#: cms/djangoapps/maintenance/views.py:41
+#: cms/djangoapps/maintenance/views.py
 msgid "Invalid course key."
 msgstr "مفتاح الدورة التدريبية غير صالح."
 
-#: cms/djangoapps/maintenance/views.py:42
+#: cms/djangoapps/maintenance/views.py
 msgid "No matching course found."
 msgstr "لم يتم العثور على دورة تدريبية مطابقة."
 
-#: cms/djangoapps/maintenance/views.py:182
+#: cms/djangoapps/maintenance/views.py
 msgid "Force publishing course is not supported with old mongo courses."
 msgstr "تنفيذ نشر الدورة التدريبية غير مدعوم مع الدورات التدريبية القديمة. "
 
-#: cms/djangoapps/maintenance/views.py:196
+#: cms/djangoapps/maintenance/views.py
 msgid "Course is already in published state."
 msgstr "الدورة التدريبية في حالة نشر بالفعل."
 
-#: cms/djangoapps/models/settings/course_metadata.py:178
+#: cms/djangoapps/models/settings/course_metadata.py
 #, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
 msgstr "تنسيق غير صحيح لحقل ’{name}‘. {detailed_message}"
 
-#: cms/envs/common.py:154
+#: cms/envs/common.py
 msgid "Your Platform Studio"
 msgstr ""
 
-#: cms/envs/common.py:155
+#: cms/envs/common.py
 msgid "Studio"
 msgstr ""
 
-#: cms/lib/xblock/tagging/tagging.py:23
+#: cms/lib/xblock/tagging/tagging.py
 msgid "Dictionary with the available tags"
 msgstr "قاموس بالشارات المتوفرة"
 
-#: cms/urls.py:16
+#: cms/urls.py
 msgid "Studio Administration"
 msgstr ""

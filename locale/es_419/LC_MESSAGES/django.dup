@@ -1,0 +1,90 @@
+Multiple translations found for single string.
+	String "Entrance Exam"
+	Present in files [u'cms/djangoapps/contentstore/views/entrance_exam.py', u'lms/djangoapps/courseware/tabs.py', u'cms/templates/settings.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Examen de Admisión
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Exámen de Admisión
+
+Multiple translations found for single string.
+	String "Display Name"
+	Present in files [u'common/djangoapps/course_modes/models.py', u'common/lib/xmodule/xmodule/annotatable_module.py', u'common/lib/xmodule/xmodule/capa_base.py', u'common/lib/xmodule/xmodule/conditional_module.py', u'common/lib/xmodule/xmodule/html_module.py', u'common/lib/xmodule/xmodule/imageannotation_module.py', u'common/lib/xmodule/xmodule/library_content_module.py', u'common/lib/xmodule/xmodule/lti_module.py', u'common/lib/xmodule/xmodule/split_test_module.py', u'common/lib/xmodule/xmodule/textannotation_module.py', u'common/lib/xmodule/xmodule/videoannotation_module.py', u'common/lib/xmodule/xmodule/word_cloud_module.py', u'common/lib/xmodule/xmodule/x_module.py', u'openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py', u'cms/templates/container.html', u'cms/templates/library.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Nombre visualizado
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Nombre para mostrar:
+
+Multiple translations found for single string.
+	String "{platform_name} Support"
+	Present in files [u'common/djangoapps/third_party_auth/models.py', u'lms/templates/help_modal.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+{platform_name} Soporte
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Soporte de {platform_name}
+
+Multiple translations found for single string.
+	String "Show Answer"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'common/lib/xmodule/xmodule/modulestore/inheritance.py', u'lms/templates/problem.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Mostrar respuesta
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Mostrar Respuesta
+
+Multiple translations found for single string.
+	String "Enrollment Track Groups"
+	Present in files [u'common/lib/xmodule/xmodule/partitions/partitions_service.py', u'cms/templates/group_configurations.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Grupos de Ruta de Inscripción
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Grupos de Modalidad de Inscripción
+
+Multiple translations found for single string.
+	String "Contact Us"
+	Present in files [u'lms/djangoapps/branding/api.py', u'cms/templates/widgets/sock.html', u'themes/edx.org/cms/templates/widgets/sock.html', u'themes/stanford-style/lms/templates/static_templates/about.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Contacta con nosotros
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Contáctenos
+
+Multiple translations found for single string.
+	String "Terms of Service & Honor Code"
+	Present in files [u'lms/djangoapps/branding/api.py', u'lms/djangoapps/certificates/views/webview.py', u'themes/edx.org/lms/templates/certificates/_accomplishment-footer.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Términos del servicio y código de honor
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Términos de Servicio y Código de Honor
+
+Multiple translations found for single string.
+	String "Learner Profile"
+	Present in files [u'lms/djangoapps/courseware/date_summary.py', u'openedx/features/learner_profile/templates/learner_profile/learner_profile.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Perfil del estudiante
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Perfil de usuario
+
+Multiple translations found for single string.
+	String "Denied"
+	Present in files [u'openedx/core/djangoapps/api_admin/models.py', u'cms/templates/index.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Denegado
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Denegada
+
+Multiple translations found for single string.
+	String "Force Publish Course"
+	Present in files [u'cms/djangoapps/maintenance/views.py', u'cms/templates/maintenance/_force_publish_course.html']
+Translations found were:
+	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
+Forzar Publicar Curso
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Forzar Publicar curso
+

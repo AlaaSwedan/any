@@ -1,0 +1,54 @@
+Multiple translations found for single string.
+	String "Click to change"
+	Present in files [u'lms/static/js/ccx/schedule.js', u'lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Haz clic para modificar
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Haga clic para modificar
+
+Multiple translations found for single string.
+	String "There was an error, try searching again."
+	Present in files [u'lms/static/js/discovery/views/search_form.js', u'openedx/features/course_search/static/course_search/templates/search_error.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Hubo un error, intenta buscar de nuevo.
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Hubo un error, intente buscar de nuevo.
+
+Multiple translations found for single string.
+	String "Add Cohort"
+	Present in files [u'lms/static/js/groups/views/cohorts.js', u'lms/templates/instructor/instructor_dashboard_2/cohorts.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Añadir cohorte
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Añadir Cohorte
+
+Multiple translations found for single string.
+	String "Check Your Email"
+	Present in files [u'lms/static/js/student_account/views/LoginView.js', u'lms/templates/verify_student/intro_step.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Revise tu correo electrónico
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Revise su correo electrónico
+
+Multiple translations found for single string.
+	String "In Progress"
+	Present in files [u'lms/static/js/views/fields.js', u'lms/templates/learner_dashboard/program_card.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+En progreso
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+En proceso
+
+Multiple translations found for single string.
+	String "Staff"
+	Present in files [u'cms/static/js/factories/manage_users.js', u'cms/static/js/factories/manage_users_lib.js', u'common/static/common/templates/discussion/thread-list-item.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+Equipo del curso
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Equipo
+

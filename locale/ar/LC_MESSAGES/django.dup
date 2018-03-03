@@ -63,7 +63,7 @@ Translations found were:
 
 Multiple translations found for single string.
 	String "Email or password is incorrect."
-	Present in files [u'common/djangoapps/student/views.py', u'lms/templates/provider_login.html']
+	Present in files [u'common/djangoapps/student/views/login.py', u'lms/templates/provider_login.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 عنوان البريد الإلكتروني أو كلمة المرور خاطئين.
@@ -131,7 +131,7 @@ Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 منشورات المساق
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-نشرات المساق
+نشرات المقرر
 
 Multiple translations found for single string.
 	String "None"
@@ -141,6 +141,15 @@ Translations found were:
 غير مذكور
 #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
 لا شيء
+
+Multiple translations found for single string.
+	String "Course"
+	Present in files [u'common/lib/xmodule/xmodule/tabs.py', u'lms/djangoapps/courseware/tabs.py', u'lms/djangoapps/courseware/views/views.py', u'lms/djangoapps/shoppingcart/reports.py', u'openedx/features/course_experience/__init__.py', u'cms/templates/widgets/header.html', u'lms/templates/help_modal.html', u'lms/templates/courseware/course_navigation.html', u'lms/templates/courseware/courseware.html', u'lms/templates/ux/reference/bootstrap/course-skeleton.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+المساق 
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+المقرر 
 
 Multiple translations found for single string.
 	String "Instructions"
@@ -161,15 +170,6 @@ Translations found were:
 المدونة
 
 Multiple translations found for single string.
-	String "Terms of Service & Honor Code"
-	Present in files [u'lms/djangoapps/branding/api.py', u'themes/edx.org/lms/templates/certificates/_accomplishment-footer.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-شروط الخدمة وميثاق الشرف الأكاديمي
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-شروط الخدمة وميثاق الشرف
-
-Multiple translations found for single string.
 	String "Percent"
 	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/templates/instructor/instructor_dashboard_2/metrics.html']
 Translations found were:
@@ -177,6 +177,24 @@ Translations found were:
 النسبة المئوية
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 النسبة
+
+Multiple translations found for single string.
+	String "Course Name"
+	Present in files [u'lms/djangoapps/dashboard/sysadmin.py', u'cms/templates/course-create-rerun.html', u'cms/templates/index.html', u'lms/templates/shoppingcart/receipt.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+اسم المساق
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+اسم المقرر
+
+Multiple translations found for single string.
+	String "Staff"
+	Present in files [u'lms/djangoapps/instructor/paidcourse_enrollment_report.py', u'lms/templates/preview_menu.html', u'lms/templates/instructor/instructor_dashboard_2/membership.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+طاقم المساق
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+طاقم المقرر
 
 Multiple translations found for single string.
 	String "Invoice"
@@ -197,22 +215,13 @@ Translations found were:
 العملة 
 
 Multiple translations found for single string.
-	String "Create Account"
-	Present in files [u'lms/djangoapps/student_account/views.py', u'themes/stanford-style/lms/templates/static_templates/tos.html', u'themes/red-theme/cms/templates/register.html']
+	String "Course Start Date"
+	Present in files [u'lms/djangoapps/shoppingcart/reports.py', u'cms/templates/course_outline.html', u'cms/templates/settings.html', u'lms/templates/instructor/instructor_dashboard_2/executive_summary.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-إنشاء حساب 
+تاريخ بدء المساق
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-إنشاء حساب
-
-Multiple translations found for single string.
-	String "Continue"
-	Present in files [u'lms/djangoapps/student_account/views.py', u'lms/templates/peer_grading/peer_grading_problem.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-استمرار
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-استمر 
+تاريخ بدء المقرر
 
 Multiple translations found for single string.
 	String "Manual Refund"
@@ -230,7 +239,7 @@ Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 الرقم التعريفي للمساق 
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-رقم تعريف المساق 
+رقم تعريف المقرر 
 
 Multiple translations found for single string.
 	String "Error"
@@ -240,24 +249,6 @@ Translations found were:
 حدث خطأ
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 خطأ
-
-Multiple translations found for single string.
-	String "All"
-	Present in files [u'openedx/core/djangoapps/schedules/admin.py', u'themes/stanford-style/lms/templates/static_templates/tos.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-الكل
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-الجميع
-
-Multiple translations found for single string.
-	String "This is what you will use to login."
-	Present in files [u'openedx/core/djangoapps/user_api/api.py', u'../themes/test-theme/lms/templates/faq.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-هذا ما ستستخدمه لتسجيل الدخول.
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-سيستخدم هذا عند تسجيل الدخول.
 
 Multiple translations found for single string.
 	String "Force Publish Course"
